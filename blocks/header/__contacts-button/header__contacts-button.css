@@ -1,0 +1,10 @@
+.header__contacts-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 232px;
+  height: 45px;
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+}

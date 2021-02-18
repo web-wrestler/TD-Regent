@@ -1,0 +1,8 @@
+.header__container {
+  width: 1423px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 73px 0 0;
+}
