@@ -3,5 +3,5 @@
 @import url(./__text/description__text.css);
 
 .description {
-  margin: 0 0 0 253px;
+  margin-left: 253px;
 }

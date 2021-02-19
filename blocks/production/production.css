@@ -1,0 +1,11 @@
+@import url(./__title/production__title.css);
+@import url(./__list/production__list.css);
+@import url(./__item/production__item.css);
+@import url(./__image/production__image.css);
+@import url(./__text/production__text.css);
+
+.production {
+  margin: 0 0 85px 253px;
+  display: flex;
+  justify-content: flex-start;
+}
