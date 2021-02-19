@@ -1,0 +1,8 @@
+.greating__container {
+  width: 1097px;
+  border-top: 5px solid #2b8d44;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 0 120px 253px;
+}

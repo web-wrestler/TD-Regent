@@ -20,6 +20,6 @@
   align-items: flex-start;
   background-image: url(../../images/Banner_top.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top;
 }

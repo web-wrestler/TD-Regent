@@ -1,0 +1,15 @@
+@import url(./__container/greating__container.css);
+@import url(./__title/greating__title.css);
+@import url(./__subtitle/greating__subtitle.css);
+
+.greating {
+  min-height: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(../../images/Banner_bottom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
