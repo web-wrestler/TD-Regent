@@ -3,5 +3,6 @@
   margin: auto;
   font-family: 'Golos Text', Arial, sans-serif;
   text-rendering: optimizeLegibility;
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
+  background-color: #fff;
 }

@@ -1,0 +1,7 @@
+@import url(./__title/description__title.css);
+@import url(./__container-text/description__container-text.css);
+@import url(./__text/description__text.css);
+
+.description {
+  margin: 0 0 0 253px;
+}

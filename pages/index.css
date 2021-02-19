@@ -3,3 +3,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/greating/greating.css);
+@import url(../blocks/description/description.css);
+
+@import url(../blocks/footer/footer.css);
