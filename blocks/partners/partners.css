@@ -1,0 +1,10 @@
+@import url(./__title/partners__title.css);
+@import url(./__list/partners__list.css);
+@import url(./__item/partners__item.css);
+@import url(./__image/partners__image.css);
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 100px 253px;
+}
