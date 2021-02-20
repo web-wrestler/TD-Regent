@@ -1,0 +1,12 @@
+@import url(./__title/contacts__title.css);
+@import url(./__subtitle/contacts__subtitle.css);
+@import url(./__text/contacts__text.css);
+@import url(./__button/contacts__button.css);
+@import url(./__map/contacts__map.css);
+
+.contacts {
+  background: #282b33;
+  padding: 0 0 0 253px;
+  display: flex;
+  justify-content: flex-start;
+}
