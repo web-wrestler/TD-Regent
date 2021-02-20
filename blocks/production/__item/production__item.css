@@ -1,5 +1,5 @@
 .production__item {
-  max-width: 320px;
+  width: 320px;
   min-height: 70px;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,19 @@
+.form__textarea {
+  background: rgba(255, 255, 255, 0.2);
+  width: 851px;
+  height: 170px;
+  border: none;
+  /* margin: 0 20px 20px 0; */
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  padding-left: 18px;
+  padding-top: 16px;
+}
+
+.form__textarea::placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}

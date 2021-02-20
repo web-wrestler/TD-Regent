@@ -5,5 +5,8 @@
 @import url(../blocks/greating/greating.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/production/production.css);
+@import url(../blocks/request-form/request-form.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/advantages/advantages.css);
 
 @import url(../blocks/footer/footer.css);

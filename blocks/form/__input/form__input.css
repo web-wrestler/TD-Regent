@@ -1,0 +1,19 @@
+.form__input {
+  background: rgba(255, 255, 255, 0.2);
+  width: 406px;
+  height: 54px;
+  border: none;
+  margin: 0 0px 20px 20px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #fff;
+  padding-left: 18px;
+}
+
+.form__input::placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}

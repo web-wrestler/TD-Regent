@@ -1,0 +1,6 @@
+@import url(./__title/advantages__title.css);
+
+.advantages {
+  display: flex;
+  margin-left: 253px;
+}

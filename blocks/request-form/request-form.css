@@ -1,0 +1,10 @@
+@import url(./__container/request-form__container.css);
+@import url(./__title/request-form__title.css);
+@import url(./__text/request-form__text.css);
+
+.request-form {
+  background: #282b33;
+  padding: 0 0 100px 253px;
+  display: flex;
+  justify-content: flex-start;
+}
