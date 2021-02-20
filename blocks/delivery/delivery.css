@@ -1,0 +1,9 @@
+@import url(./__title/delivery__title.css);
+@import url(./__text/delivery__text.css);
+@import url(./__image-map/delivery__image-map.css);
+
+.delivery {
+  display: flex;
+  padding: 0 0 100px 253px;
+  border-bottom: 0.5px solid #6f7077;
+}
