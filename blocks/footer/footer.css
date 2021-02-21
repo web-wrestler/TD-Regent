@@ -1,3 +1,13 @@
+@import url(./__navigatoin/footer__navigatoin.css);
+@import url(./__navigatoin-link/footer__navigatoin-link.css);
+@import url(./__navigatoin-link-text/footer__navigatoin-link-text.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__text/footer__text.css);
+@import url(./__icon-point/footer__icon-point.css);
+@import url(./__phone/footer__phone.css);
+
 .footer {
-  min-height: 400px;
+  padding: 0 0 70px 253px;
+  display: flex;
+  justify-content: flex-start;
 }
