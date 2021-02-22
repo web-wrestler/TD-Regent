@@ -5,6 +5,7 @@
 @import url(./__text/footer__text.css);
 @import url(./__icon-point/footer__icon-point.css);
 @import url(./__phone/footer__phone.css);
+@import url(./__navigatoin-link-text/__navigatoin-text_active/footer__navigatoin-text_active.css);
 
 .footer {
   padding: 0 0 70px 253px;

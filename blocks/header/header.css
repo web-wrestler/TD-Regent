@@ -10,16 +10,18 @@
 @import url(./__contacts-arrow/header__contacts-arrow.css);
 @import url(./__contacts-phone/header__contacts-phone.css);
 @import url(./__icon-point/header__icon-point.css);
+@import url(./__navigatoin-link-text/__navigatoin-text_active/header__navigatoin-text_active.css);
 
 .header {
-  max-width: 1920px;
+  /* max-width: 1920px; */
   height: 230px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   background-image: url(../../images/Banner_top.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+  padding-left: 253px;
 }

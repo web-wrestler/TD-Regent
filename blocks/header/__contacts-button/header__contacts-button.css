@@ -8,3 +8,8 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 30px;
 }
+
+.header__contacts-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

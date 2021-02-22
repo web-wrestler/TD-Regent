@@ -1,0 +1,13 @@
+.production__item-link {
+  text-decoration: none;
+  width: 320px;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.production__item-link:hover {
+  opacity: 0.8;
+}

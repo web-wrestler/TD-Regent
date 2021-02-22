@@ -6,3 +6,7 @@
   color: #787982;
   text-decoration: none;
 }
+
+.footer__navigatoin-link-text:hover {
+  opacity: 0.8;
+}

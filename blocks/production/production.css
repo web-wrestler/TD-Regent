@@ -3,6 +3,7 @@
 @import url(./__item/production__item.css);
 @import url(./__image/production__image.css);
 @import url(./__text/production__text.css);
+@import url(./__item-link/production__item-link.css);
 
 .production {
   margin: 0 0 85px 253px;

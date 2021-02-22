@@ -1,8 +1,8 @@
 .production__item {
-  width: 320px;
+  /* width: 320px;
   min-height: 70px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center; */
 }
