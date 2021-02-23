@@ -10,3 +10,8 @@
   border: none;
   margin-top: 20px;
 }
+
+.form__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
