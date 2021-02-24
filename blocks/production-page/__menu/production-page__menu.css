@@ -1,0 +1,5 @@
+.production-page__menu {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}

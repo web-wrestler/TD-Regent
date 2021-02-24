@@ -1,0 +1,10 @@
+.production-page__title {
+  width: 932px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+  color: #282b33;
+  margin: 70px 0 0 0;
+  border-top: 5px solid #2b8d44;
+  padding-top: 31px;
+}

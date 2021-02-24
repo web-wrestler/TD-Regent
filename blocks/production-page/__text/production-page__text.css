@@ -1,0 +1,10 @@
+.production-page__text {
+  width: 1052px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  color: #282b33;
+  mix-blend-mode: normal;
+  margin: 20px 0 0;
+}

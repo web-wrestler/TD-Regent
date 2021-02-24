@@ -1,0 +1,13 @@
+.production-page__nav-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #282b33;
+  text-decoration: none;
+  margin: 32px 0 0;
+}
+
+.production-page__nav-link:hover {
+  opacity: 0.8;
+}

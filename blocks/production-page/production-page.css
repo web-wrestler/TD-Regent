@@ -1,0 +1,14 @@
+@import url(./__menu/production-page__menu.css);
+@import url(./__menu-title/production-page__menu-title.css);
+@import url(./__nav-list/production-page__nav-list.css);
+@import url(./__nav-item/production-page__nav-item.css);
+@import url(./__nav-link/production-page__nav-link.css);
+@import url(./__nav-link/__nav-link_active/production-page__nav-link_active.css);
+@import url(./__title/production-page__title.css);
+@import url(./__text/production-page__text.css);
+@import url(./__subtitle/production-page__subtitle.css);
+
+.production-page {
+  display: flex;
+  padding: 0 0 0 250px;
+}

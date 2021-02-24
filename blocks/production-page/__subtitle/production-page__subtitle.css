@@ -1,0 +1,10 @@
+.production-page__subtitle {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #282b33;
+  border-top: 5px solid #2b8d44;
+  margin: 70px 0 45px;
+  padding-top: 20px;
+  width: 492px;
+}
