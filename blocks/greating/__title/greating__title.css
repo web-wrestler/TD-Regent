@@ -3,5 +3,31 @@
   font-size: 64px;
   line-height: 77px;
   color: #fff;
-  margin: 35px 0 0 0;
+  margin: 0;
+  border-top: 5px solid #2b8d44;
+  width: 1097px;
+  padding: 30px 0 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .greating__title {
+    font-size: 60px;
+    line-height: 72px;
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .greating__title {
+    border-top: 4px solid #2b8d44;
+    font-size: 55px;
+    line-height: 68px;
+    width: 900px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .greating__title {
+    font-size: 48px;
+    line-height: 58px;
+    width: 830px;
+  }
 }

@@ -8,3 +8,25 @@
   border-top: 5px solid #2b8d44;
   padding-top: 31px;
 }
+
+@media screen and (max-width: 1700px) {
+  .production-page__title {
+    font-size: 60px;
+    line-height: 72px;
+    width: 875px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production-page__title {
+    font-size: 55px;
+    line-height: 68px;
+    width: 800px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production-page__title {
+    font-size: 48px;
+    line-height: 58px;
+    width: 700px;
+  }
+}

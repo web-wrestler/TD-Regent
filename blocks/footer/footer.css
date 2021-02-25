@@ -2,8 +2,10 @@
 @import url(./__navigatoin-link/footer__navigatoin-link.css);
 @import url(./__navigatoin-link-text/footer__navigatoin-link-text.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__container/footer__container.css);
 @import url(./__text/footer__text.css);
 @import url(./__icon-point/footer__icon-point.css);
+@import url(./container-phone/footer__container-phone.css);
 @import url(./__phone/footer__phone.css);
 @import url(./__navigatoin-link-text/__navigatoin-text_active/footer__navigatoin-text_active.css);
 
@@ -11,4 +13,20 @@
   padding: 0 0 70px 253px;
   display: flex;
   justify-content: flex-start;
+}
+
+@media screen and (max-width: 1700px) {
+  .footer {
+    padding: 0 0 66px 200px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .footer {
+    padding: 0 0 63px 150px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .footer {
+    padding: 0 0 60px 100px;
+  }
 }

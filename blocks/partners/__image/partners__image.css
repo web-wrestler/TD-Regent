@@ -2,3 +2,22 @@
   max-width: 190px;
   max-height: 100px;
 }
+
+@media screen and (max-width: 1700px) {
+  .partners__image {
+    max-width: 155px;
+    max-height: 90px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .partners__image {
+    max-width: 138px;
+    max-height: 80px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .partners__image {
+    max-width: 121px;
+    max-height: 70px;
+  }
+}

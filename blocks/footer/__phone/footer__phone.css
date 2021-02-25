@@ -7,3 +7,28 @@
   color: #787982;
   margin: 75px 0 0 0px;
 }
+
+@media screen and (max-width: 1700px) {
+  .footer__phone {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 65px 0 0 0px;
+    width: 210px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .footer__phone {
+    font-size: 22px;
+    line-height: 25px;
+    margin: 55px 0 0 0px;
+    width: 190px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .footer__phone {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 44px 0 0 0px;
+    width: 160px;
+  }
+}

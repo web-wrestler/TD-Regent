@@ -11,3 +11,19 @@
 .production__item-link:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1700px) {
+  .production__item-link {
+    width: 290px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production__item-link {
+    width: 265px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production__item-link {
+    width: 234px;
+  }
+}

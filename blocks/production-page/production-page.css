@@ -12,3 +12,19 @@
   display: flex;
   padding: 0 0 0 250px;
 }
+
+@media screen and (max-width: 1700px) {
+  .production-page {
+    padding: 0 0 0 200px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production-page {
+    padding: 0 0 0 150px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production-page {
+    padding: 0 0 0 100px;
+  }
+}

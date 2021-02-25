@@ -1,5 +1,19 @@
 .contacts__map {
-  width: 1119px;
-  height: 675px;
-  margin-left: 31px;
+  background-image: url(../../../images/Map_territory.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+  width: 100%;
+}
+
+@media screen and (max-width: 1570px) {
+  .contacts__map {
+    background-size: 140%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .contacts__map {
+    background-size: cover;
+  }
 }

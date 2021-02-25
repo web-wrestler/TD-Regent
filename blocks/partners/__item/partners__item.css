@@ -7,3 +7,25 @@
   align-items: center;
   margin-right: 50px;
 }
+
+@media screen and (max-width: 1700px) {
+  .partners__item {
+    width: 185px;
+    height: 90px;
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .partners__item {
+    width: 170px;
+    height: 80px;
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .partners__item {
+    width: 150px;
+    height: 70px;
+    margin-right: 40px;
+  }
+}

@@ -17,3 +17,34 @@
   line-height: 22px;
   color: #fff;
 }
+
+@media screen and (max-width: 1700px) {
+  .form__input {
+    width: 380px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .form__input {
+    width: 355px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .form__input::placeholder {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .form__input {
+    width: 308px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .form__input::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

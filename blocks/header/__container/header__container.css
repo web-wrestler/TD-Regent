@@ -1,8 +1,32 @@
 .header__container {
-  width: 1423px;
+  /* width: 1423px; */
+  width: calc(100% - 506px);
   height: 130px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-items: center;
+
   margin: 73px 0 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .header__container {
+    width: calc(100% - 400px);
+    margin: 68px 0 0;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  .header__container {
+    width: calc(100% - 300px);
+    margin: 65px 0 0;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .header__container {
+    width: calc(100% - 200px);
+    margin: 61px 0 0;
+  }
 }

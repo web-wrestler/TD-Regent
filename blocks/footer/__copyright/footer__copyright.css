@@ -3,5 +3,23 @@
   font-size: 18px;
   line-height: 22px;
   color: #787982;
-  margin-top: 28px;
+  /* margin-top: 28px; */
+  margin: 28px 0 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .footer__copyright {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 24px 0 0;
+    min-width: 510px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 20px 0 0;
+    min-width: 450px;
+  }
 }

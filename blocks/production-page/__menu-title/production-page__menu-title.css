@@ -8,3 +8,25 @@
   padding-top: 20px;
   width: 255px;
 }
+
+@media screen and (max-width: 1700px) {
+  .production-page__menu-title {
+    font-size: 37px;
+    line-height: 42px;
+    width: 240px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production-page__menu-title {
+    font-size: 33px;
+    line-height: 39px;
+    width: 212px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production-page__menu-title {
+    font-size: 30px;
+    line-height: 36px;
+    width: 190px;
+  }
+}

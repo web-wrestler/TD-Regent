@@ -8,3 +8,25 @@
   text-align: justify;
   mix-blend-mode: normal;
 }
+
+@media screen and (max-width: 1700px) {
+  .delivery__text {
+    width: 615px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .delivery__text {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 30px 0 0;
+    width: 560px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .delivery__text {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0 0;
+    width: 515px;
+  }
+}

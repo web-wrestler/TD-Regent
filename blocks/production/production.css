@@ -10,3 +10,19 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 1700px) {
+  .production {
+    margin: 0 0 85px 200px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production {
+    margin: 0 0 85px 150px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production {
+    margin: 0 0 85px 100px;
+  }
+}

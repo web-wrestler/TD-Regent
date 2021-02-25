@@ -5,4 +5,18 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1700px) {
+  .header__contacts {
+    width: 240px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .header__contacts {
+    width: 230px;
+    height: 70px;
+  }
 }

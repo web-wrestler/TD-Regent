@@ -1,5 +1,5 @@
 .production-page__text {
-  width: 1052px;
+  width: 1000px;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
@@ -7,4 +7,19 @@
   color: #282b33;
   mix-blend-mode: normal;
   margin: 20px 0 0;
+}
+
+@media screen and (max-width: 1570px) {
+  .production-page__text {
+    font-size: 16px;
+    line-height: 28px;
+    width: 900px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production-page__text {
+    font-size: 14px;
+    line-height: 24px;
+    width: 800px;
+  }
 }

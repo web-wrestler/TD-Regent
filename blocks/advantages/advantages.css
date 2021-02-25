@@ -4,3 +4,19 @@
   display: flex;
   margin-left: 253px;
 }
+
+@media screen and (max-width: 1700px) {
+  .advantages {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .advantages {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .advantages {
+    margin-left: 100px;
+  }
+}

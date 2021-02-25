@@ -8,3 +8,19 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 1700px) {
+  .request-form {
+    padding: 0 0 90px 200px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .request-form {
+    padding: 0 0 80px 150px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .request-form {
+    padding: 0 0 70px 100px;
+  }
+}

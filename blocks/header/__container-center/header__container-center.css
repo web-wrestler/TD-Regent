@@ -5,4 +5,19 @@
   flex-direction: column;
   justify-content: space-between;
   margin-right: 40px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1700px) {
+  .header__container-center {
+    width: 600px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .header__container-center {
+    width: 500px;
+    height: 65px;
+  }
 }

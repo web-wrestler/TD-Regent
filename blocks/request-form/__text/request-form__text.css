@@ -6,3 +6,28 @@
   margin: 30px 0 0;
   width: 370px;
 }
+
+@media screen and (max-width: 1700px) {
+  .request-form__text {
+    font-size: 17px;
+    line-height: 28px;
+    margin: 25px 0 0;
+    width: 320px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .request-form__text {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0 0;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .request-form__text {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 15px 0 0;
+    width: 274px;
+  }
+}

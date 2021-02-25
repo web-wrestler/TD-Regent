@@ -3,3 +3,17 @@
   height: 18px;
   margin-right: 5px;
 }
+
+@media screen and (max-width: 1700px) {
+  .header__icon-point {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .header__icon-point {
+    width: 15px;
+    height: 14px;
+  }
+}

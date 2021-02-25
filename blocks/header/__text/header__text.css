@@ -6,3 +6,17 @@
   color: #fff;
   margin: 0;
 }
+
+@media screen and (max-width: 1700px) {
+  .header__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .header__text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

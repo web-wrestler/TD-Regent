@@ -3,3 +3,19 @@
   padding: 0;
   margin: 0 0 100px;
 }
+
+@media screen and (max-width: 1700px) {
+  .production-page__nav-list {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production-page__nav-list {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production-page__nav-list {
+    width: 240px;
+  }
+}

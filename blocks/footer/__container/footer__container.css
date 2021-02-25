@@ -1,0 +1,23 @@
+.footer__container {
+  display: flex;
+  margin: 75px 0 0 90px;
+}
+
+@media screen and (max-width: 1700px) {
+  .footer__container {
+    margin: 65px 0 0 70px;
+    min-width: 400px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .footer__container {
+    margin: 55px 0 0 55px;
+    min-width: 360px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .footer__container {
+    margin: 45px 0 0 40px;
+    min-width: 320px;
+  }
+}

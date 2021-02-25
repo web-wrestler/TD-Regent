@@ -3,3 +3,17 @@
   height: 18px;
   margin-right: 8px;
 }
+
+@media screen and (max-width: 1700px) {
+  .header__contacts-arrow {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .header__contacts-arrow {
+    width: 15px;
+    height: 14px;
+  }
+}

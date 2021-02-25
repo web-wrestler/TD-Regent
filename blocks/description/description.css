@@ -5,3 +5,19 @@
 .description {
   margin-left: 253px;
 }
+
+@media screen and (max-width: 1700px) {
+  .description {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .description {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .description {
+    margin-left: 100px;
+  }
+}

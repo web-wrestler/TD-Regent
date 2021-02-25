@@ -1,3 +1,14 @@
 .header__navigatoin-link {
   margin-right: 60px;
 }
+
+@media screen and (max-width: 1700px) {
+  .header__navigatoin-link {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .header__navigatoin-link {
+    margin-right: 40px;
+  }
+}

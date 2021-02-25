@@ -8,3 +8,28 @@
   padding-top: 20px;
   width: 492px;
 }
+
+@media screen and (max-width: 1700px) {
+  .production-page__subtitle {
+    font-size: 37px;
+    line-height: 42px;
+    margin: 70px 0 40px;
+    width: 455px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production-page__subtitle {
+    font-size: 33px;
+    line-height: 39px;
+    margin: 70px 0 30px;
+    width: 410px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production-page__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 70px 0 15px;
+    width: 370px;
+  }
+}

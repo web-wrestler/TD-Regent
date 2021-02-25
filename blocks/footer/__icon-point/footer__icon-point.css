@@ -3,3 +3,17 @@
   height: 24px;
   margin-right: 5px;
 }
+
+@media screen and (max-width: 1700px) {
+  .footer__icon-point {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__icon-point {
+    width: 15px;
+    height: 14px;
+  }
+}

@@ -11,3 +11,20 @@
 .production-page__nav-link:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1700px) {
+  .production-page__nav-link {
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production-page__nav-link {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production-page__nav-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

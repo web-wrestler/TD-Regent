@@ -10,3 +10,17 @@
 .footer__navigatoin-link-text:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1700px) {
+  .footer__navigatoin-link-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__navigatoin-link-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

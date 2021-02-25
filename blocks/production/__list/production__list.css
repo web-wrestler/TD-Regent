@@ -8,3 +8,22 @@
   margin: 100px 0 0 75px;
   list-style: none;
 }
+
+@media screen and (max-width: 1700px) {
+  .production__list {
+    grid-row-gap: 72px;
+    margin: 89px 0 0 70px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production__list {
+    grid-row-gap: 68px;
+    margin: 82px 0 0 70px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production__list {
+    grid-row-gap: 65px;
+    margin: 75px 0 0 70px;
+  }
+}

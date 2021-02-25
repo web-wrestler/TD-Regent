@@ -8,3 +8,28 @@
   padding-top: 20px;
   width: 222px;
 }
+
+@media screen and (max-width: 1700px) {
+  .partners__title {
+    font-size: 37px;
+    line-height: 42px;
+
+    width: 210px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .partners__title {
+    font-size: 33px;
+    line-height: 39px;
+
+    width: 185px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .partners__title {
+    font-size: 30px;
+    line-height: 36px;
+
+    width: 170px;
+  }
+}

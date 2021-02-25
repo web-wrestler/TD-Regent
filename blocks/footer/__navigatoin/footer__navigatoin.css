@@ -11,3 +11,19 @@
 .footer__navigatoin:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 1700px) {
+  .footer__navigatoin {
+    margin: 65px 0 0;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .footer__navigatoin {
+    margin: 55px 0 0;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .footer__navigatoin {
+    margin: 45px 0 0;
+  }
+}
