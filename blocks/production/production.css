@@ -32,3 +32,9 @@
     margin: 0 0 85px 65px;
   }
 }
+@media screen and (max-width: 400px) {
+  .production {
+    flex-direction: column;
+    margin: 0 0 30px 30px;
+  }
+}

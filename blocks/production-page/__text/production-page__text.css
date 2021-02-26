@@ -30,3 +30,9 @@
     max-width: 472px;
   }
 }
+@media screen and (max-width: 400px) {
+  .production-page__text {
+    /* margin: 20px 20px 0 0; */
+    max-width: 315px;
+  }
+}

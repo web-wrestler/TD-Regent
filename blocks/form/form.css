@@ -5,7 +5,7 @@
 
 .form {
   margin: 100px 0 0 180px;
-  width: 870px;
+  /* width: 870px; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -14,24 +14,31 @@
 @media screen and (max-width: 1700px) {
   .form {
     margin: 90px 0 0 170px;
-    width: 800px;
+    /* width: 800px; */
   }
 }
 @media screen and (max-width: 1570px) {
   .form {
     margin: 80px 0 0 160px;
-    width: 750px;
+    /* width: 750px; */
   }
 }
 @media screen and (max-width: 1350px) {
   .form {
     margin: 70px 0 0 150px;
-    width: 656px;
+    /* width: 656px; */
   }
 }
 @media screen and (max-width: 900px) {
   .form {
     margin: 50px 0 0 85px;
-    width: 388px;
+    /* width: 388px; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .form {
+    margin: 50px 0 0 0px;
+    /* width: 388px; */
+    align-items: flex-start;
   }
 }

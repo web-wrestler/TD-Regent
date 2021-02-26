@@ -38,12 +38,18 @@
     line-height: 17px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 900px) {
   .form__button {
     width: 106px;
     height: 23px;
     font-size: 10px;
     line-height: 12px;
     margin-top: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form__button {
+    align-self: flex-end;
+    margin-right: 30px;
   }
 }

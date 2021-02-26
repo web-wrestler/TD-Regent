@@ -60,3 +60,10 @@
     line-height: 12px;
   }
 }
+@media screen and (max-width: 400px) {
+  .form__textarea {
+    width: 305px;
+    height: 95px;
+    padding-left: 10px;
+  }
+}

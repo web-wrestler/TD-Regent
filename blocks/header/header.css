@@ -13,7 +13,7 @@
 @import url(./__navigatoin-link-text/__navigatoin-text_active/header__navigatoin-text_active.css);
 
 .header {
-  height: 230px;
+  min-height: 230px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -24,15 +24,15 @@
   background-position: top;
 }
 
-/* 
+/*
 @media screen and (max-width: 1700px) {
   .header {
     padding-left: 180px;
   }
 } */
 
-/* @media screen and (max-width: 1280px) {
+@media screen and (max-width: 400px) {
   .header {
-    padding-left: 100px;
+    min-height: 150px;
   }
-} */
+}

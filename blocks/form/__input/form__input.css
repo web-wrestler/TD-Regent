@@ -61,3 +61,11 @@
     line-height: 12px;
   }
 }
+@media screen and (max-width: 400px) {
+  .form__input {
+    width: 142px;
+    height: 28px;
+    margin: 0 9px 10px 0px;
+    padding-left: 10px;
+  }
+}

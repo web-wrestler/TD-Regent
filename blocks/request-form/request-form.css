@@ -29,3 +29,9 @@
     padding: 0 0 44px 65px;
   }
 }
+@media screen and (max-width: 400px) {
+  .request-form {
+    flex-direction: column;
+    padding: 0 0 40px 30px;
+  }
+}

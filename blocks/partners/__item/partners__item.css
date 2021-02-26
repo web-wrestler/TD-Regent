@@ -36,3 +36,10 @@
     margin-right: 15px;
   }
 }
+@media screen and (max-width: 400px) {
+  .partners__item {
+    width: 130px;
+    height: 60px;
+    margin-right: 20px;
+  }
+}

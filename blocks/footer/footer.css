@@ -1,4 +1,5 @@
 @import url(./__navigatoin/footer__navigatoin.css);
+@import url(./__container-nav/footer__container-nav.css);
 @import url(./__navigatoin-link/footer__navigatoin-link.css);
 @import url(./__navigatoin-link-text/footer__navigatoin-link-text.css);
 @import url(./__copyright/footer__copyright.css);
@@ -34,5 +35,12 @@
 @media screen and (max-width: 900px) {
   .footer {
     padding: 0 0 37px 65px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
   }
 }

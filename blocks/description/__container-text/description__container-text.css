@@ -7,3 +7,9 @@
     margin-top: 15px;
   }
 }
+@media screen and (max-width: 400px) {
+  .description__container-text {
+    flex-direction: column;
+    margin-top: 5px;
+  }
+}

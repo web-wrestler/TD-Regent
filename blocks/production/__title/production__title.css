@@ -43,3 +43,8 @@
     border-top: 3px solid #2b8d44;
   }
 }
+@media screen and (max-width: 400px) {
+  .production__title {
+    margin: 10px 0 0;
+  }
+}

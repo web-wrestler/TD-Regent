@@ -38,3 +38,8 @@
     width: 305px;
   }
 }
+@media screen and (max-width: 400px) {
+  .delivery__text {
+    margin: 20px 0 0;
+  }
+}

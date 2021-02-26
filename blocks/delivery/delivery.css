@@ -28,3 +28,9 @@
     padding: 0 0 50px 65px;
   }
 }
+@media screen and (max-width: 400px) {
+  .delivery {
+    flex-direction: column;
+    padding: 0 0 40px 30px;
+  }
+}

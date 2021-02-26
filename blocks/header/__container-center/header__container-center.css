@@ -26,3 +26,8 @@
     height: 45px;
   }
 }
+@media screen and (max-width: 400px) {
+  .header__container-center {
+    display: none;
+  }
+}

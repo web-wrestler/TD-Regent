@@ -32,3 +32,8 @@
     margin: 38px 0 0;
   }
 }
+@media screen and (max-width: 400px) {
+  .footer__navigatoin {
+    margin: 0;
+  }
+}

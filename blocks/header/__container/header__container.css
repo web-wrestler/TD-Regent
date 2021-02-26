@@ -16,25 +16,28 @@
     margin: 68px 0 0;
   }
 }
-
 @media screen and (max-width: 1570px) {
   .header__container {
     width: calc(100% - 300px);
     margin: 65px 0 0;
   }
 }
-
 @media screen and (max-width: 1350px) {
   .header__container {
     width: calc(100% - 200px);
     margin: 61px 0 0;
   }
 }
-
 @media screen and (max-width: 900px) {
   .header__container {
     width: calc(100% - 130px);
     margin: 35px 0 0;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header__container {
+    width: calc(100% - 60px);
     height: 80px;
   }
 }

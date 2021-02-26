@@ -1,6 +1,6 @@
 .production__item-link {
   text-decoration: none;
-  width: 320px;
+  max-width: 320px;
   min-height: 70px;
   display: flex;
   flex-direction: column;
@@ -14,21 +14,21 @@
 
 @media screen and (max-width: 1700px) {
   .production__item-link {
-    width: 290px;
+    max-width: 290px;
   }
 }
 @media screen and (max-width: 1570px) {
   .production__item-link {
-    width: 265px;
+    max-width: 265px;
   }
 }
 @media screen and (max-width: 1350px) {
   .production__item-link {
-    width: 234px;
+    max-width: 234px;
   }
 }
 @media screen and (max-width: 900px) {
   .production__item-link {
-    width: 137px;
+    max-width: 137px;
   }
 }
