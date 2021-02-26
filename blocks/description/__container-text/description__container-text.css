@@ -2,3 +2,8 @@
   display: flex;
   margin-top: 30px;
 }
+@media screen and (max-width: 900px) {
+  .description__container-text {
+    margin-top: 15px;
+  }
+}

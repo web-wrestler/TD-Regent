@@ -21,3 +21,9 @@
     height: 110px;
   }
 }
+@media screen and (max-width: 900px) {
+  .production__image {
+    width: 80px;
+    height: 80px;
+  }
+}

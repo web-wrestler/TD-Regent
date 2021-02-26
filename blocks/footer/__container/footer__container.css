@@ -21,3 +21,9 @@
     min-width: 320px;
   }
 }
+@media screen and (max-width: 900px) {
+  .footer__container {
+    margin: 38px 0 0 15px;
+    min-width: 130px;
+  }
+}

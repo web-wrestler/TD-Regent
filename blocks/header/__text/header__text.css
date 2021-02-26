@@ -20,3 +20,10 @@
     line-height: 17px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .header__text {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

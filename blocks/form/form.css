@@ -1,4 +1,5 @@
 @import url(./__input/form__input.css);
+@import url(./__container-contacts/form__container-contacts.css);
 @import url(./__textarea/form__textarea.css);
 @import url(./__button/form__button.css);
 
@@ -26,5 +27,11 @@
   .form {
     margin: 70px 0 0 150px;
     width: 656px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .form {
+    margin: 50px 0 0 85px;
+    width: 388px;
   }
 }

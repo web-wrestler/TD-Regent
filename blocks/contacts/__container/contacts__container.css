@@ -15,3 +15,8 @@
     max-width: 423px;
   }
 }
+@media screen and (max-width: 900px) {
+  .contacts__container {
+    max-width: 250px;
+  }
+}

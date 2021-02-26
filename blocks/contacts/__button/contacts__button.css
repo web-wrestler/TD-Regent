@@ -42,3 +42,13 @@
     margin: 20px 0 61px;
   }
 }
+@media screen and (max-width: 900px) {
+  .contacts__button {
+    width: 100px;
+    height: 24px;
+
+    font-size: 10px;
+    line-height: 12px;
+    margin: 13px 0 40px;
+  }
+}

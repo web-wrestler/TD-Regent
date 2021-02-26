@@ -25,3 +25,10 @@
     line-height: 26px;
   }
 }
+@media screen and (max-width: 900px) {
+  .production__text {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 20px 0 0;
+  }
+}

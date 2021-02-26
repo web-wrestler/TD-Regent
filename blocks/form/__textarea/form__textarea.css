@@ -48,3 +48,15 @@
     line-height: 17px;
   }
 }
+@media screen and (max-width: 900px) {
+  .form__textarea {
+    width: 370px;
+    height: 95px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .form__textarea::placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

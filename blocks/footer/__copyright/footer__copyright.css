@@ -23,3 +23,11 @@
     min-width: 450px;
   }
 }
+@media screen and (max-width: 900px) {
+  .footer__copyright {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 18px 0 0;
+    min-width: 335px;
+  }
+}

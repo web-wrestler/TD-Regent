@@ -30,3 +30,12 @@
     width: 700px;
   }
 }
+@media screen and (max-width: 900px) {
+  .production-page__title {
+    border-top: 3px solid #2b8d44;
+    font-size: 28px;
+    line-height: 34px;
+    width: 410px;
+    margin: 40px 0 0 0;
+  }
+}

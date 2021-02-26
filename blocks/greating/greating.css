@@ -19,15 +19,18 @@
     min-height: 550px;
   }
 }
-
 @media screen and (max-width: 1570px) {
   .greating {
     min-height: 450px;
   }
 }
-
 @media screen and (max-width: 1350px) {
   .greating {
     min-height: 370px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .greating {
+    min-height: 225px;
   }
 }

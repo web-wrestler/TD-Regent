@@ -20,3 +20,8 @@
     margin-left: 100px;
   }
 }
+@media screen and (max-width: 900px) {
+  .advantages {
+    margin-left: 65px;
+  }
+}

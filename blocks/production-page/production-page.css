@@ -4,6 +4,7 @@
 @import url(./__nav-item/production-page__nav-item.css);
 @import url(./__nav-link/production-page__nav-link.css);
 @import url(./__nav-link/__nav-link_active/production-page__nav-link_active.css);
+@import url(./__content/production-page__content.css);
 @import url(./__title/production-page__title.css);
 @import url(./__text/production-page__text.css);
 @import url(./__subtitle/production-page__subtitle.css);
@@ -26,5 +27,10 @@
 @media screen and (max-width: 1350px) {
   .production-page {
     padding: 0 0 0 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .production-page {
+    padding: 0 0 0 65px;
   }
 }

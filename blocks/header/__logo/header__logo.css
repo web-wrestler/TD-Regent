@@ -19,3 +19,11 @@
     max-height: 46px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .header__logo {
+    max-width: 97px;
+    max-height: 23px;
+    margin-right: 40px;
+  }
+}

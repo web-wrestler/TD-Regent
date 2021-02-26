@@ -32,3 +32,8 @@
     width: 234px;
   }
 }
+@media screen and (max-width: 900px) {
+  .production__item {
+    width: 137px;
+  }
+}

@@ -1,0 +1,9 @@
+.production-page__content {
+  margin: 0 0 80px 45px;
+}
+
+@media screen and (max-width: 900px) {
+  .production-page__content {
+    margin: 0 0 35px 35px;
+  }
+}

@@ -5,9 +5,10 @@
 @import url(./__container/footer__container.css);
 @import url(./__text/footer__text.css);
 @import url(./__icon-point/footer__icon-point.css);
-@import url(./container-phone/footer__container-phone.css);
+@import url(./__container-phone/footer__container-phone.css);
 @import url(./__phone/footer__phone.css);
 @import url(./__navigatoin-link-text/__navigatoin-text_active/footer__navigatoin-text_active.css);
+@import url(./__copyright/_timetable/footer__copyright_timetable.css);
 
 .footer {
   padding: 0 0 70px 253px;
@@ -28,5 +29,10 @@
 @media screen and (max-width: 1350px) {
   .footer {
     padding: 0 0 60px 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer {
+    padding: 0 0 37px 65px;
   }
 }

@@ -1,0 +1,15 @@
+.footer__copyright_timetable {
+  min-width: 200px;
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__copyright_timetable {
+    min-width: 150px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer__copyright_timetable {
+    min-width: 100px;
+    margin: 16px 0 0 10px;
+  }
+}

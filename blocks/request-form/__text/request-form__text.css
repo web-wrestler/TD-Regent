@@ -31,3 +31,11 @@
     width: 274px;
   }
 }
+@media screen and (max-width: 900px) {
+  .request-form__text {
+    font-size: 10px;
+    line-height: 18px;
+    margin: 8px 0 0;
+    width: 168px;
+  }
+}

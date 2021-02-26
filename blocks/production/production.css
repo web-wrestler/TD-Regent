@@ -4,6 +4,7 @@
 @import url(./__image/production__image.css);
 @import url(./__text/production__text.css);
 @import url(./__item-link/production__item-link.css);
+@import url(./__list/_page/production__list_page.css);
 
 .production {
   margin: 0 0 85px 253px;
@@ -24,5 +25,10 @@
 @media screen and (max-width: 1350px) {
   .production {
     margin: 0 0 85px 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .production {
+    margin: 0 0 85px 65px;
   }
 }

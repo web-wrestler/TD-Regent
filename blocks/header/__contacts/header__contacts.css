@@ -20,3 +20,9 @@
     height: 70px;
   }
 }
+@media screen and (max-width: 900px) {
+  .header__contacts {
+    width: 185px;
+    height: 45px;
+  }
+}

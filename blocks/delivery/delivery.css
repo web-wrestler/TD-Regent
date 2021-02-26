@@ -23,3 +23,8 @@
     padding: 0 0 85px 100px;
   }
 }
+@media screen and (max-width: 900px) {
+  .delivery {
+    padding: 0 0 50px 65px;
+  }
+}

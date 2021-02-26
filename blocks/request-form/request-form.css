@@ -24,3 +24,8 @@
     padding: 0 0 70px 100px;
   }
 }
+@media screen and (max-width: 900px) {
+  .request-form {
+    padding: 0 0 44px 65px;
+  }
+}

@@ -3,3 +3,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 900px) {
+  .production-page__menu {
+    max-width: 140px;
+  }
+}

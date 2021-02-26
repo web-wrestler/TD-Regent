@@ -10,10 +10,16 @@
     height: 17px;
   }
 }
-
 @media screen and (max-width: 1350px) {
   .header__contacts-arrow {
     width: 15px;
     height: 14px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header__contacts-arrow {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
   }
 }

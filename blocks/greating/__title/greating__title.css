@@ -31,3 +31,11 @@
     width: 830px;
   }
 }
+@media screen and (max-width: 900px) {
+  .greating__title {
+    border-top: 3px solid #2b8d44;
+    font-size: 28px;
+    line-height: 34px;
+    width: 480px;
+  }
+}

@@ -28,3 +28,9 @@
     line-height: 24px;
   }
 }
+@media screen and (max-width: 900px) {
+  .production-page__nav-link {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

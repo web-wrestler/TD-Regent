@@ -17,3 +17,10 @@
     height: 14px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .header__icon-point {
+    width: 8px;
+    height: 10px;
+  }
+}

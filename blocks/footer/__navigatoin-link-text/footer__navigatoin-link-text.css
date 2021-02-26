@@ -17,10 +17,15 @@
     line-height: 20px;
   }
 }
-
 @media screen and (max-width: 1350px) {
   .footer__navigatoin-link-text {
     font-size: 14px;
     line-height: 17px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer__navigatoin-link-text {
+    font-size: 10px;
+    line-height: 12px;
   }
 }

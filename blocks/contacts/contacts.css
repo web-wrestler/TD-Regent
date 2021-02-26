@@ -27,3 +27,8 @@
     padding: 0 0 0 100px;
   }
 }
+@media screen and (max-width: 900px) {
+  .contacts {
+    padding: 0 0 0 65px;
+  }
+}

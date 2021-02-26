@@ -25,3 +25,10 @@
     margin: 20px 0 0;
   }
 }
+@media screen and (max-width: 900px) {
+  .greating__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 10px 0 0;
+  }
+}

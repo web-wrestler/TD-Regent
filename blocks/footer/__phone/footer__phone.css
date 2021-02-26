@@ -32,3 +32,11 @@
     width: 160px;
   }
 }
+@media screen and (max-width: 900px) {
+  .footer__phone {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 37px 0 0 0px;
+    width: 113px;
+  }
+}

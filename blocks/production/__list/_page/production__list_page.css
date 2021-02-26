@@ -1,0 +1,10 @@
+.production__list_page {
+  margin: 50px 0 0 0;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .production__list_page {
+    margin: 25px 0 0 0;
+  }
+}
