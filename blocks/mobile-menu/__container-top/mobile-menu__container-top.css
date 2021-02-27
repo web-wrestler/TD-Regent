@@ -1,0 +1,5 @@
+.mobile-menu__container-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 30px 40px;
+}

@@ -1,7 +1,7 @@
 .contacts__map {
   background-image: url(../../../images/Map_territory.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: right;
   width: 100%;
 }

@@ -1,0 +1,18 @@
+.header__button-menu {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .header__button-menu {
+    display: block;
+    border: none;
+    background-image: url(../../../images/icon-menu.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 33px;
+    background-color: transparent;
+    align-self: self-start;
+    margin-top: 3px;
+  }
+}

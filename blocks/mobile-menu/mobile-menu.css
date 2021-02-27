@@ -1,0 +1,25 @@
+@import url(./__container-top/mobile-menu__container-top.css);
+@import url(./__navigatoin/mobile-menu__navigatoin.css);
+@import url(./__navigatoin-link/mobile-menu__navigatoin-link.css);
+@import url(./__navigatoin-link-text/mobile__navigatoin-link-text.css);
+@import url(./__container-bottom/mobile-menu__container-bottom.css);
+@import url(./__text/mobile-menu__text.css);
+@import url(./__contacts-button/mobile-menu__contacts-button.css);
+@import url(./__contacts-arrow/mobile-menu__contacts-arrow.css);
+@import url(./__contacts-phone/mobile-menu__contacts-phone.css);
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 665px;
+  background-color: #282b33;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
+  -moz-transition: all 0.5s;
+}

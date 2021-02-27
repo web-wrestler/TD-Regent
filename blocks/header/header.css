@@ -10,6 +10,7 @@
 @import url(./__contacts-arrow/header__contacts-arrow.css);
 @import url(./__contacts-phone/header__contacts-phone.css);
 @import url(./__icon-point/header__icon-point.css);
+@import url(./__button-menu/header__button-menu.css);
 @import url(./__navigatoin-link-text/__navigatoin-text_active/header__navigatoin-text_active.css);
 
 .header {

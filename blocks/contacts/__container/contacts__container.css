@@ -1,22 +1,33 @@
 .contacts__container {
   max-width: 548px;
+  margin-right: 200px;
 }
 
 @media screen and (max-width: 1700px) {
   .contacts__container {
+    margin-right: 150px;
   }
 }
 @media screen and (max-width: 1570px) {
   .contacts__container {
+    margin-right: 100px;
   }
 }
 @media screen and (max-width: 1350px) {
   .contacts__container {
     max-width: 423px;
+    margin-right: 75px;
   }
 }
 @media screen and (max-width: 900px) {
   .contacts__container {
     max-width: 250px;
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contacts__container {
+    max-width: 250px;
+    margin-right: 0px;
   }
 }
