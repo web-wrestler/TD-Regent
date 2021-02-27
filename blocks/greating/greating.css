@@ -32,5 +32,11 @@
 @media screen and (max-width: 900px) {
   .greating {
     min-height: 225px;
+    background-size: 1000px 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .greating {
+    background-size: 1000px 320px;
   }
 }

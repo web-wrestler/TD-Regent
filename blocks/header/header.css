@@ -25,15 +25,16 @@
   background-position: top;
 }
 
-/*
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 900px) {
   .header {
-    padding-left: 180px;
+    min-height: 100px;
+    background-size: 1000px 115px;
   }
-} */
+}
 
 @media screen and (max-width: 400px) {
   .header {
     min-height: 150px;
+    background-size: 1000px 155px;
   }
 }
