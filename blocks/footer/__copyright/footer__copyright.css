@@ -15,12 +15,19 @@
     min-width: 510px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .footer__copyright {
     font-size: 14px;
     line-height: 17px;
     margin: 20px 0 0;
     min-width: 450px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer__copyright {
+    font-size: 12px;
+    line-height: 15px;
+    min-width: 400px;
   }
 }
 @media screen and (max-width: 900px) {

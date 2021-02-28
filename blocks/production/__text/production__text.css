@@ -19,10 +19,17 @@
     line-height: 28px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .production__text {
     font-size: 18px;
     line-height: 26px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .production__text {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 20px 0 0;
   }
 }
 @media screen and (max-width: 900px) {

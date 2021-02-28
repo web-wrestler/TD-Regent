@@ -21,10 +21,18 @@
     margin: 82px 0 0 70px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .production__list {
-    grid-row-gap: 65px;
+    grid-row-gap: 55px;
     margin: 75px 0 0 70px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .production__list {
+    grid-row-gap: 55px;
+    grid-column-gap: 10px;
+    margin: 75px 0 0 20px;
+    padding: 0px 0 0 5px;
   }
 }
 @media screen and (max-width: 900px) {

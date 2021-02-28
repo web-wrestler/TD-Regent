@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   width: 232px;
-  height: 45px;
+  min-height: 45px;
   background-color: #fff;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 30px;
@@ -17,18 +17,24 @@
 @media screen and (max-width: 1700px) {
   .header__contacts-button {
     width: 200px;
-    height: 39px;
+    min-height: 39px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .header__contacts-button {
     width: 176px;
-    height: 34px;
+    min-height: 34px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header__contacts-button {
+    width: 150px;
+    min-height: 28px;
   }
 }
 @media screen and (max-width: 900px) {
   .header__contacts-button {
     width: 120px;
-    height: 23px;
+    min-height: 23px;
   }
 }

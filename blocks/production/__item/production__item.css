@@ -27,9 +27,14 @@
     width: 265px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .production__item {
     width: 234px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .production__item {
+    width: 200px;
   }
 }
 @media screen and (max-width: 900px) {

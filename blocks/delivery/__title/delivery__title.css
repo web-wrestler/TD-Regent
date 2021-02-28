@@ -6,7 +6,7 @@
   border-top: 5px solid #2b8d44;
   margin: 100px 16px 0 0;
   padding-top: 20px;
-  width: 664px;
+  max-width: 664px;
 }
 
 @media screen and (max-width: 1700px) {
@@ -14,7 +14,7 @@
     font-size: 37px;
     line-height: 42px;
     margin: 90px 0 0;
-    width: 615px;
+    max-width: 615px;
   }
 }
 @media screen and (max-width: 1570px) {
@@ -22,15 +22,20 @@
     font-size: 33px;
     line-height: 39px;
     margin: 80px 0 0;
-    width: 550px;
+    max-width: 550px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .delivery__title {
     font-size: 30px;
     line-height: 36px;
     margin: 70px 0 0;
-    width: 500px;
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .delivery__title {
+    max-width: 315px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -38,7 +43,7 @@
     font-size: 18px;
     line-height: 22px;
     margin: 50px 0 0;
-    width: 300px;
+    max-width: 300px;
     padding-top: 15px;
     border-top: 3px solid #2b8d44;
   }

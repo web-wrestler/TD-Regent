@@ -24,12 +24,20 @@
     width: 190px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .footer__phone {
     font-size: 18px;
     line-height: 21px;
     margin: 44px 0 0 0px;
     width: 160px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer__phone {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 44px 0 0 0px;
+    width: 140px;
   }
 }
 @media screen and (max-width: 900px) {

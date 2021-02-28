@@ -41,7 +41,7 @@
 }
 @media screen and (max-width: 400px) {
   .request-form__text {
-    margin: 5px 30px 0 0;
+    margin: 5px 0px 0 0;
     max-width: 315px;
   }
 }

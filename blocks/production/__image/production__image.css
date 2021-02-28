@@ -15,10 +15,16 @@
     height: 115px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .production__image {
     width: 110px;
     height: 110px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .production__image {
+    width: 95px;
+    height: 95px;
   }
 }
 @media screen and (max-width: 900px) {

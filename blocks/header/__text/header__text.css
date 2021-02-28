@@ -1,5 +1,5 @@
 .header__text {
-  font-family: 'Golos Text';
+  font-family: "Golos Text";
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
@@ -14,13 +14,18 @@
   }
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .header__text {
     font-size: 14px;
     line-height: 17px;
   }
 }
-
+@media screen and (max-width: 1200px) {
+  .header__text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
 @media screen and (max-width: 900px) {
   .header__text {
     font-size: 10px;

@@ -15,10 +15,16 @@
     min-width: 360px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .footer__container {
     margin: 45px 0 0 40px;
     min-width: 320px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer__container {
+    margin: 45px 0 0 40px;
+    min-width: 280px;
   }
 }
 @media screen and (max-width: 900px) {

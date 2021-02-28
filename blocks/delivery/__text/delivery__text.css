@@ -22,12 +22,17 @@
     width: 560px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .delivery__text {
     font-size: 14px;
     line-height: 24px;
     margin: 20px 0 0;
     width: 515px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .delivery__text {
+    width: 400px;
   }
 }
 @media screen and (max-width: 900px) {

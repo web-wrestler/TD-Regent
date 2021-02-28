@@ -1,6 +1,6 @@
 .header__contacts {
-  width: 250px;
-  height: 90px;
+  max-width: 250px;
+  min-height: 90px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,20 +10,26 @@
 
 @media screen and (max-width: 1700px) {
   .header__contacts {
-    width: 240px;
-    height: 80px;
+    max-width: 240px;
+    min-height: 80px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .header__contacts {
-    width: 230px;
-    height: 70px;
+    max-width: 230px;
+    min-height: 70px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header__contacts {
+    max-width: 210px;
+    min-height: 55px;
   }
 }
 @media screen and (max-width: 900px) {
   .header__contacts {
-    width: 185px;
-    height: 45px;
+    max-width: 185px;
+    min-height: 45px;
   }
 }
 @media screen and (max-width: 400px) {

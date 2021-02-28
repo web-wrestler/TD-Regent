@@ -9,6 +9,9 @@
   color: #fff;
   border: none;
   margin-top: 20px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-self: self-end;
 }
 
 .form__button:hover {

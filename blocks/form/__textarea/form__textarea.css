@@ -1,15 +1,15 @@
 .form__textarea {
   background: rgba(255, 255, 255, 0.2);
-  width: 851px;
   height: 170px;
   border: none;
-  /* margin: 0 20px 20px 0; */
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   color: #fff;
   padding-left: 18px;
   padding-top: 16px;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .form__textarea::placeholder {
@@ -20,13 +20,11 @@
 
 @media screen and (max-width: 1700px) {
   .form__textarea {
-    width: 800px;
     height: 155px;
   }
 }
 @media screen and (max-width: 1570px) {
   .form__textarea {
-    width: 750px;
     height: 140px;
     font-size: 16px;
     line-height: 19px;
@@ -36,9 +34,8 @@
     line-height: 19px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .form__textarea {
-    width: 656px;
     height: 130px;
     font-size: 14px;
     line-height: 17px;
@@ -48,9 +45,15 @@
     line-height: 17px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .form__textarea {
+    height: 110px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
 @media screen and (max-width: 900px) {
   .form__textarea {
-    width: 370px;
     height: 95px;
     font-size: 10px;
     line-height: 12px;
@@ -62,8 +65,6 @@
 }
 @media screen and (max-width: 400px) {
   .form__textarea {
-    width: 305px;
-    height: 95px;
     padding-left: 10px;
   }
 }

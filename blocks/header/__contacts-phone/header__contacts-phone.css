@@ -1,5 +1,5 @@
 .header__contacts-phone {
-  font-family: 'Arial';
+  font-family: "Arial";
   font-weight: bold;
   font-size: 27px;
   line-height: 31px;
@@ -19,10 +19,16 @@
     line-height: 25px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .header__contacts-phone {
     font-size: 20px;
     line-height: 23px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header__contacts-phone {
+    font-size: 17px;
+    line-height: 20px;
   }
 }
 @media screen and (max-width: 900px) {

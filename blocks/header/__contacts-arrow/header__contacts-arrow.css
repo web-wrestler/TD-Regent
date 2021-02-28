@@ -10,10 +10,16 @@
     height: 17px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .header__contacts-arrow {
     width: 15px;
     height: 14px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header__contacts-arrow {
+    width: 13px;
+    height: 13px;
   }
 }
 @media screen and (max-width: 900px) {

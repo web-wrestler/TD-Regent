@@ -22,10 +22,16 @@
     margin: 65px 0 0;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .header__container {
     width: calc(100% - 200px);
     margin: 61px 0 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header__container {
+    width: calc(100% - 160px);
+    margin: 45px 0 0;
   }
 }
 @media screen and (max-width: 900px) {

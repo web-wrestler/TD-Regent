@@ -27,9 +27,15 @@
     padding: 0 0 63px 150px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .footer {
     padding: 0 0 60px 100px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: 0 40px 60px 10px;
+    justify-content: space-between;
   }
 }
 @media screen and (max-width: 900px) {

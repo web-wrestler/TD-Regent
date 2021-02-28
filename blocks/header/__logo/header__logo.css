@@ -12,10 +12,17 @@
     max-height: 53px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .header__logo {
     max-width: 188px;
     max-height: 46px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header__logo {
+    max-width: 188px;
+    max-height: 46px;
+    margin-right: 30px;
   }
 }
 @media screen and (max-width: 900px) {

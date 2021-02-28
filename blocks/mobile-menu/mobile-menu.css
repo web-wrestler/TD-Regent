@@ -14,9 +14,9 @@
   width: 100%;
   min-height: 665px;
   background-color: #282b33;
-  z-index: 2;
+  z-index: 0;
   position: fixed;
-  top: 0;
+  top: -1000px;
   right: 0;
   visibility: hidden;
   opacity: 0;

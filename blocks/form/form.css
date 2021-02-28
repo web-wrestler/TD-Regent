@@ -4,41 +4,43 @@
 @import url(./__button/form__button.css);
 
 .form {
-  margin: 100px 0 0 180px;
-  /* width: 870px; */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  margin: 100px 250px 0 180px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1700px) {
   .form {
-    margin: 90px 0 0 170px;
-    /* width: 800px; */
+    margin: 90px 200px 0 170px;
   }
 }
 @media screen and (max-width: 1570px) {
   .form {
-    margin: 80px 0 0 160px;
-    /* width: 750px; */
+    margin: 80px 120px 0 160px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .form {
-    margin: 70px 0 0 150px;
-    /* width: 656px; */
+    margin: 70px 100px 0 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .form {
+    margin: 70px 50px 0 45px;
+    grid-gap: 15px;
   }
 }
 @media screen and (max-width: 900px) {
   .form {
-    margin: 50px 0 0 85px;
-    /* width: 388px; */
+    margin: 50px 50px 0 85px;
+    grid-gap: 10px;
   }
 }
 @media screen and (max-width: 400px) {
   .form {
-    margin: 50px 0 0 0px;
-    /* width: 388px; */
-    align-items: flex-start;
+    margin: 50px 0px 0 0px;
   }
 }

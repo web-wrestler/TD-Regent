@@ -8,9 +8,14 @@
     margin-left: 100px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .footer__container-phone {
     margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer__container-phone {
+    margin-left: 0px;
   }
 }
 

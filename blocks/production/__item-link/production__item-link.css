@@ -17,14 +17,14 @@
     max-width: 290px;
   }
 }
-@media screen and (max-width: 1570px) {
+@media screen and (max-width: 1400px) {
   .production__item-link {
-    max-width: 265px;
+    width: 234px;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1200px) {
   .production__item-link {
-    max-width: 234px;
+    width: 200px;
   }
 }
 @media screen and (max-width: 900px) {
