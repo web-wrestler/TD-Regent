@@ -1,0 +1,22 @@
+@import url(./__title/thank-you__title.css);
+@import url(./__subtitle/thank-you__subtitle.css);
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .thank-you {
+    padding: 150px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .thank-you {
+    padding: 100px 0;
+  }
+}

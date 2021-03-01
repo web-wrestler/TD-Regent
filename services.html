@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Торговый дом Регент">
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" type="image/png" href="./images/favicon.png">
   <title>Торговый Дом Регент</title>
 </head>
 
@@ -53,10 +54,10 @@
           Узнайте точный срок и стоимость поставки нужной продукции в свой регион за 10 минут
         </p>
       </div>
-      <form class="form" action="">
-        <input class="form__input" type="text" placeholder="Имя">
-        <input class="form__input" type="email" placeholder="Email">
-        <textarea class="form__textarea" placeholder="Комментарий"></textarea>
+      <form class="form" action="mail.php" method="POST">
+        <input class="form__input" type="text" placeholder="Имя" name="user_name" id="">
+        <input class="form__input" type="text" placeholder="Email" name="user_email" id="">
+        <textarea class="form__textarea" type="text" placeholder="Комментарий" name="user_message" id=""></textarea>
         <button class="form__button" type="submit">Отправить заявку</button>
       </form>
     </section>
