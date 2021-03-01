@@ -9,7 +9,7 @@
 }
 @media screen and (max-width: 900px) {
   .footer__copyright_timetable {
-    min-width: 100px;
-    margin: 16px 0 0 10px;
+    min-width: 120px;
+    margin: 16px 0 0 0px;
   }
 }

@@ -1,0 +1,9 @@
+.header__container-adress {
+  display: flex;
+}
+
+@media screen and (max-width: 550px) {
+  .header__container-adress {
+    display: none;
+  }
+}

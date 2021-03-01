@@ -41,8 +41,14 @@
     height: 80px;
   }
 }
+@media screen and (max-width: 550px) {
+  .header__container {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 400px) {
   .header__container {
+    flex-direction: row;
     width: calc(100% - 60px);
     height: 80px;
   }

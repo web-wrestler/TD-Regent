@@ -23,6 +23,12 @@
   .production-page__nav-list {
   }
 }
+@media screen and (max-width: 520px) {
+  .production-page__nav-list {
+    margin: 0 0 10px;
+    max-width: 310px;
+  }
+}
 @media screen and (max-width: 400px) {
   .production-page__nav-list {
     max-width: 310px;

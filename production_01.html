@@ -15,7 +15,7 @@
       <img class="header__logo" src="./images/logo.png" alt="Логотип">
       <button class="header__button-menu" type="button" id="header"></button>
       <div class="header__container-center">
-        <div style="display: flex;">
+        <div class="header__container-adress">
           <img class="header__icon-point" src="./images/icon-point.svg" alt="адрес">
           <p class="header__text">г. Санкт-Петерубрг, Авторская улица, д. 31</p>
         </div>
@@ -36,10 +36,10 @@
         </ul>
       </div>
       <div class="header__contacts">
-        <div class="header__contacts-button">
+        <a href="#form" class="header__contacts-button">
           <img class="header__contacts-arrow" src="./images/arrow.svg" alt="стрелка">
           <p class="header__text">mail@td-regent.ru</p>
-        </div>
+        </a>
         <p class="header__contacts-phone">+7 (981) 85-777-08</p>
       </div>
     </div>
@@ -141,10 +141,8 @@
           30 лет.
         </p>
       </div>
-
     </section>
-
-    <section class="request-form">
+    <section class="request-form" id="form">
       <div>
         <h2 class="request-form__title">
           ЗАПРОС КОММЕРЧЕСКОГО ПРЕДЛОЖЕНИЯ
@@ -154,10 +152,8 @@
         </p>
       </div>
       <form class="form" action="">
-        <div class="form__container-contacts">
-          <input class="form__input" type="text" placeholder="Имя">
-          <input class="form__input" type="email" placeholder="Email">
-        </div>
+        <input class="form__input" type="text" placeholder="Имя">
+        <input class="form__input" type="email" placeholder="Email">
         <textarea class="form__textarea" placeholder="Комментарий"></textarea>
         <button class="form__button" type="submit">Отправить заявку</button>
       </form>

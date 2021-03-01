@@ -4,4 +4,11 @@
   line-height: 17px;
   color: #fff;
   margin: 0 0 0 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 350px) {
+  .mobile-menu__text {
+    max-width: 158px;
+  }
 }

@@ -42,6 +42,12 @@
     padding: 0;
   }
 }
+@media screen and (max-width: 550px) {
+  .production__list {
+    margin: 50px 0 0 0px;
+    grid-column-gap: 0px;
+  }
+}
 @media screen and (max-width: 400px) {
   .production__list {
     grid-template-columns: repeat(2, 1fr);

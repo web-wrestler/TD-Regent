@@ -15,8 +15,7 @@
       <img class="header__logo" src="./images/logo.png" alt="Логотип">
       <button class="header__button-menu" type="button" id="header"></button>
       <div class="header__container-center">
-        <!-- возможно из-за этого проблемы -->
-        <div style="display: flex;">
+        <div class="header__container-adress">
           <img class="header__icon-point" src="./images/icon-point.svg" alt="адрес">
           <p class="header__text">г. Санкт-Петерубрг, Авторская улица, д. 31</p>
         </div>
@@ -36,10 +35,10 @@
         </ul>
       </div>
       <div class="header__contacts">
-        <div class="header__contacts-button">
+        <a href="#form" class="header__contacts-button">
           <img class="header__contacts-arrow" src="./images/arrow.svg" alt="стрелка">
           <p class="header__text">mail@td-regent.ru</p>
-        </div>
+        </a>
         <p class="header__contacts-phone">+7 (981) 85-777-08</p>
       </div>
     </div>
@@ -153,7 +152,7 @@
         </li>
       </ul>
     </section>
-    <section class="request-form">
+    <section class="request-form" id="form">
       <div>
         <h2 class="request-form__title">
           ЗАПРОС КОММЕРЧЕСКОГО ПРЕДЛОЖЕНИЯ
@@ -163,11 +162,8 @@
         </p>
       </div>
       <form class="form" action="">
-
-        <!-- <div class="form__container-contacts"> -->
         <input class="form__input" type="text" placeholder="Имя">
-        <input class="form__input" type="email" placeholder="Email" style="margin-right: 0;">
-        <!-- </div> -->
+        <input class="form__input" type="email" placeholder="Email">
         <textarea class="form__textarea" placeholder="Комментарий"></textarea>
         <button class="form__button" type="submit">Отправить заявку</button>
       </form>
@@ -259,7 +255,9 @@
         <p class="contacts__text">
           mail@td-regent.ru
         </p>
-        <button class="contacts__button">Задать вопрос</button>
+        <button class="contacts__button">
+          <a href="#form" class="contacts__text">Задать вопрос</a>
+        </button>
       </div>
       <div class="contacts__map"></div>
     </section>
@@ -268,7 +266,7 @@
     <div class="footer__container-nav">
       <ul class="footer__navigatoin">
         <li class="footer__navigatoin-link">
-          <a class="footer__navigatoin-link-text footer__navigatoin-text_active" href="./index.html">ГЛАВНАЯ</a>
+          <a class="footer__navigatoin-link-text footer__navigatoin-text_active" href="./in dex.html">ГЛАВНАЯ</a>
         </li>
         <li class="footer__navigatoin-link">
           <a class="footer__navigatoin-link-text" href="./production_01.html">ПРОДУКЦИЯ</a>

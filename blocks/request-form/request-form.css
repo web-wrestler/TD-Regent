@@ -8,6 +8,23 @@
   justify-content: flex-start;
 }
 
+#request-form {
+  position: relative; /* важно - для того, чтобы псевдоэлемент позиционировался относительно этого элемента */
+  border-top: 55px solid transparent;
+  margin-top: -55px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#request-form {
+  content: "";
+  position: absolute;
+  top: -2px; /* равен по модулю толщине border */
+  left: 0;
+  right: 0;
+  border-top: 2px solid #ccc; /* собственно то, ради чего всё затевалось */
+}
+
 @media screen and (max-width: 1700px) {
   .request-form {
     padding: 0 0 90px 200px;
@@ -28,9 +45,14 @@
     padding: 0 0 44px 65px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
   .request-form {
     flex-direction: column;
+    padding: 0 30px 40px 65px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .request-form {
     padding: 0 30px 40px 30px;
   }
 }

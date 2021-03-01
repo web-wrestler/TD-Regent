@@ -37,6 +37,11 @@
     width: 200px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .production__item {
+    width: 190px;
+  }
+}
 @media screen and (max-width: 900px) {
   .production__item {
     width: 137px;

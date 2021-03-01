@@ -32,9 +32,13 @@
     margin: 0 0 85px 65px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
   .production {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .production {
     margin: 0 0 30px 30px;
   }
 }

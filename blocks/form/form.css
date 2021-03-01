@@ -1,5 +1,4 @@
 @import url(./__input/form__input.css);
-@import url(./__container-contacts/form__container-contacts.css);
 @import url(./__textarea/form__textarea.css);
 @import url(./__button/form__button.css);
 
@@ -39,8 +38,19 @@
     grid-gap: 10px;
   }
 }
+@media screen and (max-width: 700px) {
+  .form {
+    margin: 50px 0px 0 0px;
+  }
+}
 @media screen and (max-width: 400px) {
   .form {
     margin: 50px 0px 0 0px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .form {
+    margin: 30px 0px 0 0px;
+    grid-template-columns: 1fr;
   }
 }
