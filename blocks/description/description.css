@@ -26,7 +26,7 @@
     margin-left: 65px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .description {
     margin-left: 30px;
   }

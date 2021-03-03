@@ -5,14 +5,17 @@
   line-height: 28px;
   text-align: right;
   color: #787982;
-  margin: 75px 0 0 0px;
+  /* margin: 75px 0 0 0px; */
+  margin: 0;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1700px) {
   .footer__phone {
     font-size: 24px;
     line-height: 28px;
-    margin: 65px 0 0 0px;
+    /* margin: 65px 0 0 0px; */
+    margin: 0;
     width: 210px;
   }
 }
@@ -20,7 +23,8 @@
   .footer__phone {
     font-size: 22px;
     line-height: 25px;
-    margin: 55px 0 0 0px;
+    /* margin: 55px 0 0 0px; */
+    margin: 0;
     width: 190px;
   }
 }
@@ -28,7 +32,8 @@
   .footer__phone {
     font-size: 18px;
     line-height: 21px;
-    margin: 44px 0 0 0px;
+    /* margin: 44px 0 0 0px; */
+    margin: 0;
     width: 160px;
   }
 }
@@ -36,7 +41,8 @@
   .footer__phone {
     font-size: 16px;
     line-height: 18px;
-    margin: 44px 0 0 0px;
+    /* margin: 44px 0 0 0px; */
+    margin: 0;
     width: 140px;
   }
 }
@@ -44,7 +50,8 @@
   .footer__phone {
     font-size: 12px;
     line-height: 14px;
-    margin: 37px 0 0 0px;
+    /* margin: 37px 0 0 0px; */
+    margin: 0;
     width: 113px;
   }
 }

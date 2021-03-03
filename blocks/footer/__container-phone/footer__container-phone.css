@@ -1,27 +1,30 @@
 .footer__container-phone {
-  margin-left: 150px;
-  /* padding-left: 20%; */
+  margin: 75px 0 0px 150px;
 }
 
 @media screen and (max-width: 1570px) {
   .footer__container-phone {
-    margin-left: 100px;
+    margin: 55px 0 0px 100px;
   }
 }
 @media screen and (max-width: 1400px) {
   .footer__container-phone {
-    margin-left: 100px;
+    margin: 44px 0 0px 100px;
   }
 }
 @media screen and (max-width: 1200px) {
   .footer__container-phone {
-    margin-left: 0px;
+    margin: 44px 0px 0 0px;
   }
 }
-
 @media screen and (max-width: 900px) {
   .footer__container-phone {
-    margin: 0 50px 0 30px;
+    margin: 37px 0px 0 80px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer__container-phone {
+    margin: 37px 0px 0 30px;
   }
 }
 @media screen and (max-width: 550px) {

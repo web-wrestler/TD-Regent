@@ -32,9 +32,13 @@
     padding: 0 0 0 65px;
   }
 }
+@media screen and (max-width: 550px) {
+  .contacts {
+    padding: 0 0 0 30px;
+  }
+}
 @media screen and (max-width: 400px) {
   .contacts {
     flex-direction: column;
-    padding: 0 0 0 30px;
   }
 }

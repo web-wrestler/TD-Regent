@@ -37,7 +37,7 @@
     flex-direction: column;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .production {
     margin: 0 0 30px 30px;
   }

@@ -29,7 +29,7 @@
     padding: 0 0 45px 65px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .partners {
     padding: 0 0 45px 30px;
   }

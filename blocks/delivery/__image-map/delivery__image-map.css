@@ -1,42 +1,48 @@
 .delivery__image-map {
   width: 687px;
   height: 377px;
-  margin: 100px 0 0 50px;
+  margin: 100px 0 0 20px;
 }
 
 @media screen and (max-width: 1700px) {
   .delivery__image-map {
     width: 610px;
     height: 335px;
-    margin: 90px 0 0 50px;
+    margin: 90px 0 0 20px;
   }
 }
 @media screen and (max-width: 1570px) {
   .delivery__image-map {
     width: 560px;
     height: 307px;
-    margin: 80px 0 0 50px;
+    margin: 80px 0 0 20px;
   }
 }
 @media screen and (max-width: 1400px) {
   .delivery__image-map {
     width: 514px;
     height: 282px;
-    margin: 70px 0 0 50px;
+    margin: 70px 0 0 20px;
   }
 }
 @media screen and (max-width: 1200px) {
   .delivery__image-map {
     width: 350px;
     height: 200px;
-    margin: 70px 0 0 70px;
+    margin: 70px 0 0 40px;
   }
 }
 @media screen and (max-width: 900px) {
   .delivery__image-map {
     width: 304px;
     height: 167px;
-    margin: 50px 0 0 30px;
+    margin: 50px 0 0 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .delivery__image-map {
+    margin: 50px 50px 0 0px;
+    align-self: center;
   }
 }
 @media screen and (max-width: 400px) {
@@ -44,5 +50,6 @@
     width: 304px;
     height: 167px;
     margin: 36px 0 0 0px;
+    align-self: flex-start;
   }
 }
