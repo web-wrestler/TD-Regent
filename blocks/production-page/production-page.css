@@ -8,6 +8,7 @@
 @import url(./__title/production-page__title.css);
 @import url(./__text/production-page__text.css);
 @import url(./__subtitle/production-page__subtitle.css);
+@import url(./__marker/production-page__marker.css);
 
 .production-page {
   display: flex;
