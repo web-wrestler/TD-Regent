@@ -6,7 +6,7 @@
   border-top: 5px solid #2b8d44;
   margin: 70px 0 45px;
   padding-top: 20px;
-  width: 492px;
+  width: 230px;
 }
 
 @media screen and (max-width: 1700px) {
@@ -14,7 +14,7 @@
     font-size: 37px;
     line-height: 42px;
     margin: 70px 0 40px;
-    width: 455px;
+    width: 215px;
   }
 }
 @media screen and (max-width: 1570px) {
@@ -22,7 +22,7 @@
     font-size: 33px;
     line-height: 39px;
     margin: 70px 0 30px;
-    width: 410px;
+    width: 190px;
   }
 }
 @media screen and (max-width: 1350px) {
@@ -30,7 +30,7 @@
     font-size: 30px;
     line-height: 36px;
     margin: 70px 0 15px;
-    width: 370px;
+    width: 175px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -38,7 +38,7 @@
     font-size: 18px;
     line-height: 22px;
     margin: 40px 0 0;
-    width: 222px;
+    width: 105px;
     padding-top: 15px;
     border-top: 3px solid #2b8d44;
   }

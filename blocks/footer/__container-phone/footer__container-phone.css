@@ -27,6 +27,11 @@
     margin: 37px 0px 0 30px;
   }
 }
+@media screen and (max-width: 565px) {
+  .footer__container-phone {
+    margin: 37px 0px 0 17px;
+  }
+}
 @media screen and (max-width: 550px) {
   .footer__container-phone {
     display: none;
