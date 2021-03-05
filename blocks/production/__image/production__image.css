@@ -1,6 +1,12 @@
 .production__image {
   width: 130px;
   height: 130px;
+  transition: 0.3s linear;
+}
+
+.production__image:hover {
+  transform: scale(1.1);
+  /* transition: 0.5s linear; */
 }
 
 @media screen and (max-width: 1700px) {

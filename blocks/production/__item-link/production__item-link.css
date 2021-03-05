@@ -9,7 +9,8 @@
 }
 
 .production__item-link:hover {
-  opacity: 0.8;
+  /* opacity: 0.8; */
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1700px) {
