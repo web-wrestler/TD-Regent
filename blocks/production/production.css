@@ -5,6 +5,7 @@
 @import url(./__text/production__text.css);
 @import url(./__item-link/production__item-link.css);
 @import url(./__list/_page/production__list_page.css);
+@import url(./__item-image/production__item-image.css);
 
 .production {
   margin: 0 0 85px 253px;

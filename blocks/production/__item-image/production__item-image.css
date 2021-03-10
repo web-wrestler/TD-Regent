@@ -1,0 +1,36 @@
+.production__item-image {
+  width: 230px;
+  height: 230px;
+  transition: 0.3s linear;
+}
+
+/* @media screen and (max-width: 1700px) {
+  .production__image {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .production__image {
+    width: 115px;
+    height: 115px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .production__image {
+    width: 110px;
+    height: 110px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .production__image {
+    width: 95px;
+    height: 95px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .production__image {
+    width: 80px;
+    height: 80px;
+  }
+} */
