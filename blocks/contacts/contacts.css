@@ -7,12 +7,12 @@
 
 .contacts {
   background: #282b33;
-  padding: 0 0 0 253px;
+  /* padding: 0 0 0 253px; */
   display: flex;
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 1700px) {
+/* @media screen and (max-width: 1700px) {
   .contacts {
     padding: 0 0 0 200px;
   }
@@ -36,7 +36,7 @@
   .contacts {
     padding: 0 0 0 30px;
   }
-}
+} */
 @media screen and (max-width: 400px) {
   .contacts {
     flex-direction: column;

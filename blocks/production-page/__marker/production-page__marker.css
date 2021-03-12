@@ -1,5 +1,6 @@
 .production-page__marker {
-  font-size: 18px;
+  font-size: 16px;
+  color: #282b33;
 }
 
 /* .production-page__text {
@@ -15,7 +16,7 @@
 
 @media screen and (max-width: 1570px) {
   .production-page__marker {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 1350px) {

@@ -23,7 +23,7 @@
   .production-page__nav-list {
   }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .production-page__nav-list {
     margin: 0 0 10px;
     max-width: 310px;
