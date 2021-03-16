@@ -1,3 +1,74 @@
+/* .form__input {
+  background: rgba(255, 255, 255, 0.2);
+  height: 36px;
+  border: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #fff;
+  padding-left: 18px;
+  padding-top: 18px;
+}
+
+.form__input::placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1700px) {
+  .form__input {
+    height: 34px;
+    padding-top: 16px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .form__input {
+    height: 30px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .form__input::placeholder {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .form__input {
+
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 14px;
+  }
+  .form__input::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .form__input {
+    height: 24px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .form__input {
+    height: 14px;
+    font-size: 10px;
+    line-height: 12px;
+    padding-top: 14px;
+  }
+  .form__input::placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form__input {
+    padding-left: 10px;
+  }
+} */
+
 .form__input {
   background: rgba(255, 255, 255, 0.2);
   height: 54px;
@@ -14,7 +85,18 @@
   font-size: 18px;
   line-height: 22px;
   color: #fff;
+  padding-top: 5px;
 }
+.form__input::-moz-placeholder {
+  font-size: 18px;
+  line-height: 50px;
+  color: #fff;
+}
+/* .form__input:-moz-placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+} */
 
 @media screen and (max-width: 1700px) {
   .form__input {
@@ -31,6 +113,10 @@
     font-size: 16px;
     line-height: 19px;
   }
+  .form__input::-moz-placeholder {
+    font-size: 16px;
+    line-height: 40px;
+  }
 }
 @media screen and (max-width: 1400px) {
   .form__input {
@@ -42,10 +128,17 @@
     font-size: 14px;
     line-height: 17px;
   }
+  .form__input::-moz-placeholder {
+    font-size: 14px;
+    line-height: 38px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .form__input {
     height: 36px;
+  }
+  .form__input::-moz-placeholder {
+    line-height: 34px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -57,6 +150,10 @@
   .form__input::placeholder {
     font-size: 10px;
     line-height: 12px;
+  }
+  .form__input::-moz-placeholder {
+    font-size: 10px;
+    line-height: 27px;
   }
 }
 @media screen and (max-width: 400px) {

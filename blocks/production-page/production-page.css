@@ -9,6 +9,9 @@
 @import url(./__text/production-page__text.css);
 @import url(./__subtitle/production-page__subtitle.css);
 @import url(./__marker/production-page__marker.css);
+@import url(./__image-list/production-page__image-list.css);
+@import url(./__image-item/production-page__image-item.css);
+@import url(./__image/production-page__image.css);
 
 .production-page {
   display: flex;

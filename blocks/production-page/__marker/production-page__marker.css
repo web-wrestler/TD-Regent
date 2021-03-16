@@ -27,5 +27,6 @@
 @media screen and (max-width: 900px) {
   .production-page__marker {
     font-size: 10px;
+    padding-left: 20px;
   }
 }
