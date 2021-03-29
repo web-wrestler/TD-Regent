@@ -25,7 +25,7 @@
 }
 @media screen and (max-width: 900px) {
   .production-page__text {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 18px;
     max-width: 472px;
   }
