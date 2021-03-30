@@ -17,13 +17,13 @@
 
 @media screen and (max-width: 1700px) {
   .header__contacts-button {
-    width: 200px;
+    width: 210px;
     min-height: 39px;
   }
 }
 @media screen and (max-width: 1400px) {
   .header__contacts-button {
-    width: 176px;
+    width: 170px;
     min-height: 34px;
   }
 }

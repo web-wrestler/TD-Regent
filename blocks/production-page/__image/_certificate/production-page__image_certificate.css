@@ -1,0 +1,10 @@
+.production-page__image_certificate {
+  width: 163px;
+  height: 230px;
+  border: 1px solid #2b8d44;
+  /* border: none; */
+}
+.production-page__image_certificate:hover {
+  transform: scale(1.2);
+  transition: 0.3s linear;
+}

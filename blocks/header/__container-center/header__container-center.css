@@ -1,6 +1,6 @@
 .header__container-center {
   max-width: 670px;
-  min-height: 83px;
+  min-height: 86px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,13 +11,13 @@
 @media screen and (max-width: 1700px) {
   .header__container-center {
     max-width: 600px;
-    min-height: 70px;
+    min-height: 75px;
   }
 }
 @media screen and (max-width: 1400px) {
   .header__container-center {
     max-width: 500px;
-    min-height: 65px;
+    min-height: 70px;
   }
 }
 @media screen and (max-width: 1200px) {
