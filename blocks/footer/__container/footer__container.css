@@ -24,7 +24,7 @@
 @media screen and (max-width: 1200px) {
   .footer__container {
     margin: 45px 0 0 40px;
-    min-width: 280px;
+    min-width: 150px;
   }
 }
 @media screen and (max-width: 900px) {

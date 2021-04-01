@@ -33,7 +33,9 @@
 <body class="page">
   <header class="header">
     <div class="header__container">
-      <img class="header__logo" src="./images/logo.png" alt="Логотип">
+      <a class="header__link" href="./index.html">
+        <img class="header__logo" src="./images/logo.png" alt="Логотип">
+      </a>
       <button class="header__button-menu" type="button" id="header"></button>
       <div class="header__container-center">
         <div class="header__container-adress">
@@ -140,21 +142,24 @@
 
         <ul class="production-page__image-list">
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/truba-ppu01.jpg"
+            <img class="production-page__image popup-image-open" src="./images/images-production/truba-ppu01.jpg"
               alt="Стальные трубы ППУ на складе">
           </li>
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/truba-ppu02.jpg"
+            <img class="production-page__image popup-image-open" src="./images/images-production/truba-ppu02.jpg"
               alt="Стальные трубы ППУ на складе">
           </li>
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/truba-ppu03.jpg"
+            <img class="production-page__image popup-image-open" src="./images/images-production/truba-ppu03.jpg"
               alt="Трубы ППУ крупным планом">
           </li>
-
-          <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/truba-ppu04.jpg"
+          <!-- <li class="production-page__image-item">
+            <img class="production-page__image popup-image-open" src="./images/images-production/truba-ppu04.jpg"
               alt="Трубы ППУ спереди">
+          </li> -->
+          <li class="production-page__image-item">
+            <img class="production-page__image popup-image-open" src="./images/images-production/truba-ppu05.jpg"
+              alt="Труба в вус изоляции">
           </li>
         </ul>
 
@@ -194,11 +199,69 @@
             </p>
           </li>
         </ul>
+
+        <h2 class="production-page__subtitle">
+          ПОЗИЦИИ
+        </h2>
+        <table class="table">
+          <tr>
+            <th>Наименование</th>
+            <th class="table__column-5">Описание</th>
+            <th class="table__column-3">Диаметр</th>
+            <th class="table__column-2">Наличие</th>
+            <th class="table__column-4">Цена</th>
+          </tr>
+          <tr>
+            <td class="table__name">Труба в ППУ-ПЭ изоляции</td>
+            <td class="table__column-5">Стальная труба в пенополиуретановой изоляции в полиэтиленовой оболочке</td>
+            <td class="table__column-3">От 32-1220 мм</td>
+            <td class="table__column-2">Под заказ</td>
+            <td class="table__column-4">По запросу</td>
+          </tr>
+          <tr>
+            <td class="table__name">Труба в ППУ-ОЦ изоляции</td>
+            <td class="table__column-5">Стальная труба в пенополиуретановой изоляции в оцинкованной оболочке</td>
+            <td class="table__column-3">От 32-1220 мм</td>
+            <td class="table__column-2">Под заказ</td>
+            <td class="table__column-4">По запросу</td>
+          </tr>
+          <tr>
+            <td class="table__name">Труба в усиленной изоляции</td>
+            <td class="table__column-5">Стальная труба в пенополиуретановой изоляции в полиэтиленовой оболочке +
+              бандажные кольца</td>
+            <td class="table__column-3">От 32-1220 мм</td>
+            <td class="table__column-2">Под заказ</td>
+            <td class="table__column-4">По запросу</td>
+          </tr>
+          <tr>
+            <td class="table__name">Труба в ВУС изоляции к. 7</td>
+            <td class="table__column-5">Стальная труба с плотным слоем экструдированного полиэтилена</td>
+            <td class="table__column-3">От 32-325 мм</td>
+            <td class="table__column-2">Под заказ</td>
+            <td class="table__column-4">По запросу</td>
+          </tr>
+          <tr>
+            <td class="table__name">Труба в изоляции с греющим кабелем</td>
+            <td class="table__column-5">Стальная труба в пенополиуретановой изоляции в полиэтиленовой/оцинкованной
+              оболочке с впресованным кабель каналом в пенополиуретан</td>
+            <td class="table__column-3">От 32-1220 мм</td>
+            <td class="table__column-2">Под заказ</td>
+            <td class="table__column-4">По запросу</td>
+          </tr>
+          <tr>
+            <td class="table__name">Труба в ППУ-ОЦ/ПЭ изоляции со спутником</td>
+            <td class="table__column-5">Две трубы и более в пенополиуретановой изоляции в оцинкованной/полиэтиленовой
+              оболочке </td>
+            <td class="table__column-3">От 32-1220 мм</td>
+            <td class="table__column-2">Под заказ</td>
+            <td class="table__column-4">По запросу</td>
+          </tr>
+
+        </table>
+
         <p class="production-page__text">
-          Чтобы получить стоимость или расчет по данной продукции отправьте запрос через форму или напишите на нашу
-          почту:<br>
-          mail@td-regent.ru,
-          мы ответим в кратчайшие сроки.
+          Чтобы получить более подробную информацию по данной продукции отправьте запрос через форму или напишите на
+          нашу почту: <strong>mail@td-regent.ru</strong>, мы ответим в кратчайшие сроки.
         </p>
 
         <h2 class="production-page__subtitle">
@@ -206,8 +269,8 @@
         </h2>
         <ul class="production-page__image-list">
           <li class="production-page__image-item">
-            <img class="production-page__image production-page__image_certificate"
-              src="./images/certificates/certificate-truba-fasonka-mini.jpg" alt="сертификат фасонные изделия">
+            <img class="production-page__image production-page__image_certificate popup-image-open"
+              src="./images/certificates/certificate-truba-fasonka.jpg" alt="сертификат фасонные изделия" id="image">
           </li>
         </ul>
 
@@ -265,6 +328,14 @@
       </p>
     </div>
   </footer>
+
+  <div class="popup-image">
+    <div class="popup-image__content">
+      <button type="button" class="popup-image__close"></button>
+      <img class="popup-image__image" src="" alt="крестик">
+    </div>
+  </div>
+
   <section class="mobile-menu">
     <div class="mobile-menu__container-top">
       <img class="header__logo" src="./images/logo.png" alt="Логотип">

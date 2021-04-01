@@ -28,3 +28,26 @@ function removeClass() {
 
 btnHeader.addEventListener('click', addClass);
 btnMenu.addEventListener('click', removeClass);
+
+
+//откритие/закрытие попапа картинки
+const imageList = document.querySelectorAll('.popup-image-open');
+const popupElement = document.querySelector('.popup-image');
+const popupCloseButton = document.querySelector('.popup-image__close');
+const popupImage = document.querySelector('.popup-image__image');
+
+// console.log(image.src);
+
+for (let image of imageList) {
+  function addClassOpenPopupImage() {
+    popupImage.src = image.src;
+    popupElement.classList.add('popup_is-opened');
+    console.log(image.src);
+  }
+  function removeClassOpenPopupImage() {
+    popupElement.classList.remove('popup_is-opened');
+  }
+
+  image.addEventListener('click', addClassOpenPopupImage);
+  popupCloseButton.addEventListener('click', removeClassOpenPopupImage);
+}

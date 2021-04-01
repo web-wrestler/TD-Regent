@@ -17,4 +17,6 @@
 @import url(../blocks/services-company/services-company.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/popup-image/popup-image.css);
 @import url(../blocks/mobile-menu/_opened/mobile-menu_opened.css);
+@import url(../blocks/popup-image/_is-opened/popup_is-opened.css);

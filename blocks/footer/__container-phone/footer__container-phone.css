@@ -14,7 +14,7 @@
 }
 @media screen and (max-width: 1200px) {
   .footer__container-phone {
-    margin: 44px 0px 0 0px;
+    margin: 44px 0px 0 20px;
   }
 }
 @media screen and (max-width: 900px) {

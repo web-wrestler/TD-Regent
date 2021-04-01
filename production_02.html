@@ -33,7 +33,9 @@
 <body class="page">
   <header class="header">
     <div class="header__container">
-      <img class="header__logo" src="./images/logo.png" alt="Логотип">
+      <a class="header__link" href="./index.html">
+        <img class="header__logo" src="./images/logo.png" alt="Логотип">
+      </a>
       <button class="header__button-menu" type="button" id="header"></button>
       <div class="header__container-center">
         <div class="header__container-adress">
@@ -121,12 +123,37 @@
 
         <ul class="production-page__image-list">
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/stalnie-izdeliya-01.jpg"
-              alt="Стальные изделия в изоляции сбоку">
+            <img class="production-page__image popup-image-open"
+              src="./images/images-production/stalnie-izdeliya-01.jpg" alt="Стальные изделия в изоляции сбоку">
           </li>
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/stalnie-izdeliya-02.jpg"
-              alt="Стальные изделия в изоляции сверху">
+            <img class="production-page__image popup-image-open"
+              src="./images/images-production/stalnie-izdeliya-02.jpg" alt="Стальные изделия в изоляции сверху">
+          </li>
+          <li class="production-page__image-item">
+            <img class="production-page__image popup-image-open"
+              src="./images/images-production/stalnie-izdeliya-03.jpg" alt="Элемент НО">
+          </li>
+          <li class="production-page__image-item">
+            <img class="production-page__image popup-image-open"
+              src="./images/images-production/stalnie-izdeliya-04.jpg" alt="Элемент НО">
+          </li>
+
+          <li class="production-page__image-item">
+            <img class="production-page__image popup-image-open"
+              src="./images/images-production/stalnie-izdeliya-05.jpg" alt="Отводы в оц и пэ">
+          </li>
+          <li class="production-page__image-item">
+            <img class="production-page__image popup-image-open"
+              src="./images/images-production/stalnie-izdeliya-06.jpg" alt="Отводы в оц и пэ">
+          </li>
+          <li class="production-page__image-item">
+            <img class="production-page__image popup-image-open"
+              src="./images/images-production/stalnie-izdeliya-07.jpg" alt="Неподвижная щитовая опора">
+          </li>
+          <li class="production-page__image-item">
+            <img class="production-page__image popup-image-open"
+              src="./images/images-production/stalnie-izdeliya-08.jpg" alt="Неподвижная щитовая опора">
           </li>
         </ul>
 
@@ -236,8 +263,8 @@
         </h2>
         <ul class="production-page__image-list">
           <li class="production-page__image-item">
-            <img class="production-page__image production-page__image_certificate"
-              src="./images/certificates/certificate-truba-fasonka-mini.jpg" alt="сертификат фасонные изделия">
+            <img class="production-page__image production-page__image_certificate popup-image-open"
+              src="./images/certificates/certificate-truba-fasonka.jpg" alt="сертификат фасонные изделия">
           </li>
         </ul>
 
@@ -295,6 +322,14 @@
       </p>
     </div>
   </footer>
+
+  <div class="popup-image">
+    <div class="popup-image__content">
+      <button type="button" class="popup-image__close"></button>
+      <img class="popup-image__image" src="" alt="крестик">
+    </div>
+  </div>
+
   <section class="mobile-menu">
     <div class="mobile-menu__container-top">
       <img class="header__logo" src="./images/logo.png" alt="Логотип">

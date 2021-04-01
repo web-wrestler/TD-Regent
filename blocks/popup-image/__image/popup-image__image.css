@@ -1,0 +1,25 @@
+.popup-image__image {
+  max-width: 600px;
+  max-height: 800px;
+}
+
+@media screen and (max-width: 1000px) {
+  .popup-image__image {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .popup-image__image {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .popup-image__image {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .popup-image__image {
+    max-width: 250px;
+  }
+}

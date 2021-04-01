@@ -12,6 +12,7 @@
 @import url(./__contacts-phone/header__contacts-phone.css);
 @import url(./__icon-point/header__icon-point.css);
 @import url(./__button-menu/header__button-menu.css);
+@import url(./__link/header__link.css);
 @import url(./__navigatoin-link-text/__navigatoin-text_active/header__navigatoin-text_active.css);
 
 .header {

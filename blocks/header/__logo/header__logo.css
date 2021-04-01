@@ -2,8 +2,6 @@
   max-width: 285px;
   max-height: 69px;
   margin-right: 90px;
-
-  align-self: self-start;
 }
 
 @media screen and (max-width: 1700px) {

@@ -33,7 +33,9 @@
 <body class="page">
   <header class="header">
     <div class="header__container">
-      <img class="header__logo" src="./images/logo.png" alt="Логотип">
+      <a class="header__link" href="./index.html">
+        <img class="header__logo" src="./images/logo.png" alt="Логотип">
+      </a>
       <button class="header__button-menu" type="button" id="header"></button>
       <div class="header__container-center">
         <div class="header__container-adress">
@@ -129,16 +131,20 @@
 
         <ul class="production-page__image-list">
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/hortum-01.jpg" alt="компенсатор Хортум">
+            <img class="production-page__image popup-image-open" src="./images/images-production/hortum-01.jpg"
+              alt="компенсатор Хортум">
           </li>
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/hortum-02.jpg" alt="компенсатор Хортум">
+            <img class="production-page__image popup-image-open" src="./images/images-production/hortum-02.jpg"
+              alt="компенсатор Хортум">
           </li>
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/hortum-03.jpg" alt="компенсатор Хортум">
+            <img class="production-page__image popup-image-open" src="./images/images-production/hortum-03.jpg"
+              alt="компенсатор Хортум">
           </li>
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/hortum-04.jpg" alt="компенсатор Хортум">
+            <img class="production-page__image popup-image-open" src="./images/images-production/hortum-04.jpg"
+              alt="компенсатор Хортум">
           </li>
         </ul>
 
@@ -370,6 +376,14 @@
       </p>
     </div>
   </footer>
+
+  <div class="popup-image">
+    <div class="popup-image__content">
+      <button type="button" class="popup-image__close"></button>
+      <img class="popup-image__image" src="" alt="крестик">
+    </div>
+  </div>
+
   <section class="mobile-menu">
     <div class="mobile-menu__container-top">
       <img class="header__logo" src="./images/logo.png" alt="Логотип">

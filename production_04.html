@@ -33,7 +33,9 @@
 <body class="page">
   <header class="header">
     <div class="header__container">
-      <img class="header__logo" src="./images/logo.png" alt="Логотип">
+      <a class="header__link" href="./index.html">
+        <img class="header__logo" src="./images/logo.png" alt="Логотип">
+      </a>
       <button class="header__button-menu" type="button" id="header"></button>
       <div class="header__container-center">
         <div class="header__container-adress">
@@ -121,11 +123,11 @@
 
         <ul class="production-page__image-list">
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/kzs-01.jpg"
+            <img class="production-page__image popup-image-open" src="./images/images-production/kzs-01.jpg"
               alt="Кзс комплект заделки стыка">
           </li>
           <li class="production-page__image-item">
-            <img class="production-page__image" src="./images/images-production/kzs-02.jpg"
+            <img class="production-page__image popup-image-open" src="./images/images-production/kzs-02.jpg"
               alt="Кзс комплект заделки стыка">
           </li>
         </ul>
@@ -224,12 +226,12 @@
         </h2>
         <ul class="production-page__image-list">
           <li class="production-page__image-item">
-            <img class="production-page__image production-page__image_certificate"
-              src="./images/certificates/certificate-pozgarniy-1-mini.jpg" alt="пожарный сертификат">
+            <img class="production-page__image production-page__image_certificate popup-image-open"
+              src="./images/certificates/certificate-pozgarniy-1.jpg" alt="пожарный сертификат">
           </li>
           <li class="production-page__image-item">
-            <img class="production-page__image production-page__image_certificate"
-              src="./images/certificates/certificate-pozgarniy-2-mini.jpg" alt="пожарный сертификат">
+            <img class="production-page__image production-page__image_certificate popup-image-open"
+              src="./images/certificates/certificate-pozgarniy-2.jpg" alt="пожарный сертификат">
           </li>
         </ul>
 
@@ -287,6 +289,14 @@
       </p>
     </div>
   </footer>
+
+  <div class="popup-image">
+    <div class="popup-image__content">
+      <button type="button" class="popup-image__close"></button>
+      <img class="popup-image__image" src="" alt="крестик">
+    </div>
+  </div>
+
   <section class="mobile-menu">
     <div class="mobile-menu__container-top">
       <img class="header__logo" src="./images/logo.png" alt="Логотип">
