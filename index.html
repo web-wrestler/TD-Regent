@@ -29,6 +29,11 @@
     <div><img src="https://mc.yandex.ru/watch/74849065" style="position:absolute; left:-9999px;" alt="" /></div>
   </noscript>
   <!-- /Yandex.Metrika counter -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body class="page">
@@ -201,11 +206,11 @@
           Узнайте точный срок и стоимость поставки нужной продукции в свой регион
         </p>
       </div>
-      <form class="form" action="mail.php" method="POST">
-        <input class="form__input" type="text" placeholder="Имя" name="user_name" id="">
-        <input class="form__input" type="text" placeholder="Email" name="user_email" id="">
-        <textarea class="form__textarea" type="text" placeholder="Комментарий" name="user_message" id=""></textarea>
-        <button class="form__button" type="submit">Отправить заявку</button>
+      <form class="form" action="sender.php" method="POST" id="form-main">
+        <input class="form__input" type="text" placeholder="Имя" name="user_name" required>
+        <input class="form__input" type="text" placeholder="Email" name="user_email" required>
+        <textarea class="form__textarea" type="text" placeholder="Комментарий" name="user_message" required></textarea>
+        <button class="form__button" type="button">Отправить заявку</button>
       </form>
     </section>
     <section class="advantages">

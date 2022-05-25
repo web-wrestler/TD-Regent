@@ -1,38 +1,38 @@
 .contacts__container {
   max-width: 548px;
   margin-right: 200px;
-  padding: 0 0 0 253px;
+  padding: 0 0 80px 253px;
 }
 
 @media screen and (max-width: 1700px) {
   .contacts__container {
     margin-right: 150px;
-    padding: 0 0 0 200px;
+    padding: 0 0 70px 200px;
   }
 }
 @media screen and (max-width: 1570px) {
   .contacts__container {
     margin-right: 100px;
-    padding: 0 0 0 150px;
+    padding: 0 0 60px 150px;
   }
 }
 @media screen and (max-width: 1350px) {
   .contacts__container {
     max-width: 423px;
     margin-right: 75px;
-    padding: 0 0 0 100px;
+    padding: 0 0 50px 100px;
   }
 }
 @media screen and (max-width: 900px) {
   .contacts__container {
     max-width: 250px;
     margin-right: 50px;
-    padding: 0 0 0 65px;
+    padding: 0 0 40px 65px;
   }
 }
 @media screen and (max-width: 550px) {
   .contacts__container {
-    padding: 0 0 0 30px;
+    padding: 0 0 30px 30px;
   }
 }
 @media screen and (max-width: 400px) {

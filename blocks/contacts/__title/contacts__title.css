@@ -4,7 +4,7 @@
   line-height: 48px;
   color: #fff;
   border-top: 5px solid #2b8d44;
-  margin: 100px 0 0;
+  margin: 60px 0 0;
   padding-top: 20px;
   width: 225px;
 }
@@ -13,7 +13,7 @@
   .contacts__title {
     font-size: 37px;
     line-height: 42px;
-    margin: 90px 0 0;
+    margin: 50px 0 0;
     width: 210px;
   }
 }
@@ -21,7 +21,7 @@
   .contacts__title {
     font-size: 33px;
     line-height: 39px;
-    margin: 80px 0 0;
+    margin: 50px 0 0;
     width: 185px;
   }
 }
@@ -29,7 +29,7 @@
   .contacts__title {
     font-size: 30px;
     line-height: 36px;
-    margin: 70px 0 0;
+    margin: 40px 0 0;
     width: 170px;
   }
 }
@@ -37,7 +37,7 @@
   .contacts__title {
     font-size: 18px;
     line-height: 22px;
-    margin: 40px 0 0;
+    margin: 30px 0 0;
     width: 103px;
     padding-top: 15px;
     border-top: 3px solid #2b8d44;
