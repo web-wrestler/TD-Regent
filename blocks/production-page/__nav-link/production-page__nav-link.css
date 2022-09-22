@@ -7,6 +7,10 @@
   text-decoration: none;
   margin: 32px 0 0;
 }
+.production-page__nav-link-second {
+  font-size: 16px;
+  margin: 22px 0 0;
+}
 
 .production-page__nav-link:hover {
   opacity: 0.8;
@@ -21,16 +25,29 @@
     font-size: 20px;
     line-height: 28px;
   }
+  .production-page__nav-link-second {
+    font-size: 14px;
+    margin: 20px 0 0;
+  }
 }
 @media screen and (max-width: 1350px) {
   .production-page__nav-link {
     font-size: 18px;
     line-height: 24px;
   }
+  .production-page__nav-link-second {
+    font-size: 14px;
+    margin: 20px 0 0;
+  }
 }
 @media screen and (max-width: 900px) {
   .production-page__nav-link {
     font-size: 14px;
     line-height: 18px;
+  }
+  .production-page__nav-link-second {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 14px 0 0;
   }
 }

@@ -44,6 +44,9 @@
     padding-top: 15px;
     border-top: 3px solid #2b8d44;
   }
+  .production-page__subtitle_second {
+    line-height: 24px;
+  }
 }
 @media screen and (max-width: 550px) {
   .production-page__subtitle {

@@ -1,9 +1,15 @@
 .production-page__nav-item {
   margin: 35px 0 0 0;
 }
+.production-page__nav-item-second {
+  margin: 5px 0 0 0;
+}
 @media screen and (max-width: 900px) {
   .production-page__nav-item {
     margin: 20px 0 0 0;
     min-width: 140px;
+  }
+  .production-page__nav-item-second {
+    margin: 5px 0 0 0;
   }
 }

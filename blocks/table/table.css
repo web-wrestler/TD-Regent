@@ -21,6 +21,10 @@ td {
   text-align: start;
 }
 
+.table__column-6 {
+  min-width: 40px;
+}
+
 .table__name {
   font-size: 16px;
   text-align: start;

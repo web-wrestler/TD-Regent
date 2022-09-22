@@ -4,6 +4,12 @@
   margin: 0 0 100px;
 }
 
+.production-page__nav-list-second {
+  list-style: disc;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
 @media screen and (max-width: 1700px) {
   .production-page__nav-list {
     max-width: 320px;
