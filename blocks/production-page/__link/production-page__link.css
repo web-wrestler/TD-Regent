@@ -1,0 +1,30 @@
+.production-page__link {
+  font-size: 19px;
+  line-height: 36px;
+}
+
+@media screen and (max-width: 1570px) {
+  .production-page__link {
+    font-size: 18px;
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .production-page__link {
+    font-size: 16px;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .production-page__link {
+    font-size: 14px;
+    line-height: 28px;
+    max-width: 472px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .production-page__link {
+    /* margin: 20px 20px 0 0; */
+    max-width: 315px;
+  }
+}
